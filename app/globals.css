@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    @apply bg-white text-black antialiased;
+  }
+}
+
+@layer utilities {
+  /* Sketchy, irregular border radius — the Excalidraw "hand-drawn box" trick */
+  .sketch-box {
+    border-radius: 255px 15px 225px 15px / 15px 225px 15px 255px;
+  }
+  .sketch-box-alt {
+    border-radius: 15px 225px 15px 255px / 255px 15px 225px 15px;
+  }
+  .sketch-shadow {
+    box-shadow: 4px 4px 0 0 rgba(0, 0, 0, 0.08);
+  }
+  .sketch-shadow-dark {
+    box-shadow: 5px 5px 0 0 rgba(0, 0, 0, 0.85);
+  }
+}
