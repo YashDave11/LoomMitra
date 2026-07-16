@@ -6,6 +6,12 @@ import {
   CardHeader,
   CardTitle,
 } from "@/components/ui/card";
+import {
+  HoverLift,
+  ScrollReveal,
+  StaggerGroup,
+  StaggerItem,
+} from "@/components/walkthrough/motion";
 import { DoodleFrame } from "./doodles";
 
 const problems = [
@@ -32,30 +38,37 @@ export default function ProblemSection() {
       <div className="relative mx-auto max-w-6xl px-6 py-20">
         <DoodleFrame className="inset-x-0 top-24 -z-10 mx-auto hidden h-[calc(100%-8rem)] w-[105%] max-w-none lg:block" />
 
-        <h2 className="text-center text-3xl font-extrabold tracking-tight sm:text-4xl">
-          Three broken links in the chain
-        </h2>
-        <p className="mx-auto mt-3 max-w-xl text-center text-neutral-600">
-          The handloom economy runs on trust — but today that trust has no
-          infrastructure.
-        </p>
+        <ScrollReveal>
+          <h2 className="text-center text-3xl font-extrabold tracking-tight sm:text-4xl">
+            Three broken links in the chain
+          </h2>
+          <p className="mx-auto mt-3 max-w-xl text-center text-neutral-600">
+            The handloom economy runs on trust — but today that trust has no
+            infrastructure.
+          </p>
+        </ScrollReveal>
 
-        <div className="mt-12 grid gap-6 md:grid-cols-3">
+        <StaggerGroup className="mt-12 grid gap-6 md:grid-cols-3">
           {problems.map((p, i) => (
-            <Card
-              key={p.title}
-              className={i === 1 ? "border-dashed sketch-box-alt" : ""}
-            >
-              <CardHeader>
-                <span className="sketch-box-alt mb-2 flex h-12 w-12 items-center justify-center border-2 border-black">
-                  <p.icon className="h-6 w-6" strokeWidth={1.5} />
-                </span>
-                <CardTitle>{p.title}</CardTitle>
-                <CardDescription>{p.body}</CardDescription>
-              </CardHeader>
-            </Card>
+            <StaggerItem key={p.title}>
+              <HoverLift className="h-full">
+                <Card
+                  className={`h-full transition-shadow hover:shadow-[5px_5px_0_0_rgba(0,0,0,0.12)] ${
+                    i === 1 ? "border-dashed sketch-box-alt" : ""
+                  }`}
+                >
+                  <CardHeader>
+                    <span className="sketch-box-alt mb-2 flex h-12 w-12 items-center justify-center border-2 border-black">
+                      <p.icon className="h-6 w-6" strokeWidth={1.5} />
+                    </span>
+                    <CardTitle>{p.title}</CardTitle>
+                    <CardDescription>{p.body}</CardDescription>
+                  </CardHeader>
+                </Card>
+              </HoverLift>
+            </StaggerItem>
           ))}
-        </div>
+        </StaggerGroup>
       </div>
     </section>
   );

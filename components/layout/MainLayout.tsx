@@ -2,6 +2,7 @@ import Link from "next/link";
 import { QrCode } from "lucide-react";
 
 import { Button } from "@/components/ui/button";
+import AmbientBackground from "@/components/layout/AmbientBackground";
 
 function Header() {
   return (
@@ -12,7 +13,7 @@ function Header() {
             <QrCode className="h-5 w-5" strokeWidth={1.75} />
           </span>
           <span className="text-lg font-bold tracking-tight">
-            Handloom Passport
+            LoomMitra
           </span>
         </Link>
         <nav className="flex items-center gap-6">
@@ -41,7 +42,7 @@ function Footer() {
   return (
     <footer className="border-t border-dashed border-neutral-300">
       <div className="mx-auto flex max-w-6xl flex-col items-center gap-2 px-6 py-10 text-center">
-        <p className="text-base font-bold tracking-tight">Handloom Passport</p>
+        <p className="text-base font-bold tracking-tight">LoomMitra</p>
         <p className="text-sm text-neutral-600">
           Digital trust layer for Indian handloom.
         </p>
@@ -59,10 +60,13 @@ export default function MainLayout({
   children: React.ReactNode;
 }) {
   return (
-    <div className="flex min-h-screen flex-col bg-white text-black">
+    <div className="relative flex min-h-screen flex-col bg-white text-black">
+      <AmbientBackground />
       <Header />
-      <main className="flex-1">{children}</main>
-      <Footer />
+      <main className="relative z-10 flex-1">{children}</main>
+      <div className="relative z-10 bg-white/70 backdrop-blur-sm">
+        <Footer />
+      </div>
     </div>
   );
 }

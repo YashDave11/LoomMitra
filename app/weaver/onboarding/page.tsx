@@ -48,7 +48,14 @@ export default function WeaverOnboardingPage() {
   const [verified, setVerified] = useState(false);
 
   return (
-    <AppShell>
+    <AppShell
+      guideMessages={[
+        "This is where my cooperative verifies who I am — with just my phone number — so buyers know I'm a real handloom weaver.",
+        "Before this, anyone could claim to be a weaver online. Verified onboarding is the foundation of all the trust that follows.",
+      ]}
+      guidePhase="Phase 1 – Digital Market"
+      guideProblemCode="Problem 2.1"
+    >
       <StepNav />
       <StepHeader
         step="Step 1 of 5"

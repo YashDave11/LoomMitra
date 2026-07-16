@@ -13,22 +13,26 @@ import {
 
 import { cn } from "@/lib/utils";
 
+/** Each step carries its phase so the stepper doubles as a roadmap. */
 const steps = [
-  { n: 1, label: "Weaver Onboarding", href: "/weaver/onboarding", icon: UserPlus },
-  { n: 2, label: "Create Product Passport", href: "/product/create", icon: FileBadge },
-  { n: 3, label: "QR & Authenticity", href: "/product/passport", icon: QrCode },
-  { n: 4, label: "Buyer View", href: "/buyer/view", icon: ShoppingBag },
-  { n: 5, label: "Cooperative Dashboard", href: "/cooperative/dashboard", icon: Building2 },
+  { n: 1, label: "Weaver Onboarding", href: "/weaver/onboarding", icon: UserPlus, phase: "P1" },
+  { n: 2, label: "Create Product Passport", href: "/product/create", icon: FileBadge, phase: "P1" },
+  { n: 3, label: "QR & Authenticity", href: "/product/passport", icon: QrCode, phase: "P2" },
+  { n: 4, label: "Buyer View", href: "/buyer/view", icon: ShoppingBag, phase: "P2" },
+  { n: 5, label: "Cooperative Dashboard", href: "/cooperative/dashboard", icon: Building2, phase: "P3" },
 ];
+
+const phaseTitle: Record<string, string> = {
+  P1: "Phase 1 · Digital Market (2.1)",
+  P2: "Phase 2 · Authenticity & Stories (2.2)",
+  P3: "Phase 3 · Cooperative Digitisation (4.3)",
+};
 
 export default function StepNav() {
   const pathname = usePathname();
 
   return (
-    <nav
-      aria-label="Walkthrough steps"
-      className="mb-10 overflow-x-auto pb-2"
-    >
+    <nav aria-label="Walkthrough steps" className="mb-10 overflow-x-auto pb-2">
       <ol className="flex min-w-max items-center gap-2">
         {steps.map((step, i) => {
           const active = pathname === step.href;
@@ -42,6 +46,7 @@ export default function StepNav() {
                 <Link
                   href={step.href}
                   aria-current={active ? "step" : undefined}
+                  title={phaseTitle[step.phase]}
                   className={cn(
                     "sketch-box-alt relative flex items-center gap-2 border-2 px-4 py-2 text-sm font-semibold transition-colors",
                     active
@@ -54,6 +59,16 @@ export default function StepNav() {
                     {step.n}. {step.label}
                   </span>
                   <span className="md:hidden">{step.n}</span>
+                  <span
+                    className={cn(
+                      "rounded-sm border px-1 text-[9px] font-bold leading-tight",
+                      active
+                        ? "border-neutral-500 text-neutral-300"
+                        : "border-neutral-300 text-neutral-400"
+                    )}
+                  >
+                    {step.phase}
+                  </span>
                 </Link>
                 {active && (
                   <motion.span
@@ -66,7 +81,13 @@ export default function StepNav() {
               {i < steps.length - 1 && (
                 <span
                   aria-hidden="true"
-                  className="h-px w-5 border-t-2 border-dashed border-neutral-300"
+                  className={cn(
+                    "h-px w-5 border-t-2 border-neutral-300",
+                    // solid connector inside a phase, dashed across phase boundaries
+                    steps[i + 1].phase === step.phase
+                      ? "border-solid"
+                      : "border-dashed"
+                  )}
                 />
               )}
             </li>

@@ -2,6 +2,7 @@ import Link from "next/link";
 import { Play } from "lucide-react";
 
 import { Button } from "@/components/ui/button";
+import { ScrollReveal } from "@/components/walkthrough/motion";
 import { DoodleCrosses } from "./doodles";
 
 export default function FinalCTA() {
@@ -10,7 +11,8 @@ export default function FinalCTA() {
       <DoodleCrosses className="left-[10%] bottom-8 hidden h-28 w-28 lg:block" />
 
       <div className="mx-auto max-w-6xl px-6 py-20">
-        <div className="sketch-box sketch-shadow relative mx-auto max-w-3xl border-2 border-black bg-white px-8 py-14 text-center sm:px-14">
+        <ScrollReveal>
+          <div className="sketch-box sketch-shadow relative mx-auto max-w-3xl border-2 border-black bg-white px-8 py-14 text-center transition-shadow hover:shadow-[6px_6px_0_0_rgba(0,0,0,0.15)] sm:px-14">
           <span className="absolute -top-3 left-1/2 -translate-x-1/2 bg-white px-3 text-xs font-semibold uppercase tracking-widest text-neutral-500">
             Try it yourself
           </span>
@@ -35,7 +37,8 @@ export default function FinalCTA() {
             Prototype only – no real orders, built for Indian Handloom
             Hackathon 2026.
           </p>
-        </div>
+          </div>
+        </ScrollReveal>
       </div>
     </section>
   );

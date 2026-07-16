@@ -50,7 +50,14 @@ const statusVariant: Record<string, "default" | "dashed" | "subtle"> = {
 
 export default function CooperativeDashboardPage() {
   return (
-    <AppShell>
+    <AppShell
+      guideMessages={[
+        "Our cooperative used to work with notebooks and guesses — nobody knew our full inventory or who could fulfil a big order.",
+        "This dashboard shows all weavers, their products, and bulk orders in one place, so we can negotiate better prices together.",
+      ]}
+      guidePhase="Phase 3 – Cooperative Digitisation"
+      guideProblemCode="Problem 4.3"
+    >
       <StepNav />
       <StepHeader
         step="Step 5 of 5"

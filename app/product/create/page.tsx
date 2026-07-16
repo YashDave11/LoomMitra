@@ -30,7 +30,14 @@ export default function ProductCreatePage() {
   const [submitted, setSubmitted] = useState(false);
 
   return (
-    <AppShell>
+    <AppShell
+      guideMessages={[
+        "Here I turn my saree into a digital product — its title, fabric, pattern, and my own price, recorded right at the loom.",
+        "This is how my work becomes visible in the digital market, instead of lying in a shop backroom waiting for a trader's offer.",
+      ]}
+      guidePhase="Phase 1 – Digital Market"
+      guideProblemCode="Problem 2.1"
+    >
       <StepNav />
       <StepHeader
         step="Step 2 of 5"

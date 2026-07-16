@@ -9,7 +9,7 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Handloom Passport — Trust from Loom to Market",
+  title: "LoomMitra — Trust from Loom to Market",
   description:
     "A digital trust layer for Indian handloom: QR-based product passports connecting weavers, buyers, and cooperatives.",
 };

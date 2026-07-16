@@ -13,6 +13,12 @@ import {
   CardHeader,
   CardTitle,
 } from "@/components/ui/card";
+import {
+  HoverLift,
+  ScrollReveal,
+  StaggerGroup,
+  StaggerItem,
+} from "@/components/walkthrough/motion";
 import { DoodleCrosses } from "./doodles";
 
 const features = [
@@ -60,34 +66,37 @@ export default function FeaturesGrid() {
       <DoodleCrosses className="right-[3%] top-12 hidden h-36 w-36 lg:block" />
 
       <div className="mx-auto max-w-6xl px-6 py-20">
-        <h2 className="text-center text-3xl font-extrabold tracking-tight sm:text-4xl">
-          What&apos;s in the box
-        </h2>
-        <p className="mx-auto mt-3 max-w-xl text-center text-neutral-600">
-          Six building blocks, designed to work on cheap phones and patchy
-          networks.
-        </p>
+        <ScrollReveal>
+          <h2 className="text-center text-3xl font-extrabold tracking-tight sm:text-4xl">
+            What&apos;s in the box
+          </h2>
+          <p className="mx-auto mt-3 max-w-xl text-center text-neutral-600">
+            Six building blocks, designed to work on cheap phones and patchy
+            networks.
+          </p>
+        </ScrollReveal>
 
-        <div className="mt-12 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+        <StaggerGroup className="mt-12 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
           {features.map((f) => (
-            <Card
-              key={f.title}
-              className={
-                f.dashed
-                  ? "sketch-box-alt border-dashed"
-                  : ""
-              }
-            >
-              <CardHeader>
-                <span className="sketch-box mb-2 flex h-11 w-11 items-center justify-center border-2 border-black">
-                  <f.icon className="h-5 w-5" strokeWidth={1.5} />
-                </span>
-                <CardTitle className="text-base">{f.title}</CardTitle>
-                <CardDescription>{f.body}</CardDescription>
-              </CardHeader>
-            </Card>
+            <StaggerItem key={f.title}>
+              <HoverLift className="h-full">
+                <Card
+                  className={`h-full transition-shadow hover:shadow-[5px_5px_0_0_rgba(0,0,0,0.12)] ${
+                    f.dashed ? "sketch-box-alt border-dashed" : ""
+                  }`}
+                >
+                  <CardHeader>
+                    <span className="sketch-box mb-2 flex h-11 w-11 items-center justify-center border-2 border-black">
+                      <f.icon className="h-5 w-5" strokeWidth={1.5} />
+                    </span>
+                    <CardTitle className="text-base">{f.title}</CardTitle>
+                    <CardDescription>{f.body}</CardDescription>
+                  </CardHeader>
+                </Card>
+              </HoverLift>
+            </StaggerItem>
           ))}
-        </div>
+        </StaggerGroup>
       </div>
     </section>
   );

@@ -48,7 +48,14 @@ export default function BuyerViewPage() {
   }, [toast]);
 
   return (
-    <AppShell>
+    <AppShell
+      guideMessages={[
+        "This is exactly what a buyer sees when they scan the QR on my saree — my face, my village, and the journey of the weave.",
+        "My story and the timeline help them feel confident paying a fair price for real handloom instead of a machine copy.",
+      ]}
+      guidePhase="Phase 2 – Authenticity & Stories"
+      guideProblemCode="Problem 2.2"
+    >
       <StepNav />
       <StepHeader
         step="Step 4 of 5"
@@ -119,7 +126,7 @@ export default function BuyerViewPage() {
                 {weaver.specialty}
               </p>
               <p className="rounded border border-dashed border-neutral-300 bg-neutral-50 p-3 text-xs leading-relaxed">
-                This QR was issued by Handloom Passport in partnership with{" "}
+                This QR was issued by LoomMitra in partnership with{" "}
                 {cooperative.name}.
               </p>
             </CardContent>

@@ -28,11 +28,18 @@ import {
 const product = products[0];
 const weaver = weaverById(product.weaverId)!;
 const productEvents = eventsForProduct(product.id);
-const passportUrl = `https://handloom-passport.dev/product/${product.id}`;
+const passportUrl = `https://loommitra.dev/product/${product.id}`;
 
 export default function ProductPassportPage() {
   return (
-    <AppShell>
+    <AppShell
+      guideMessages={[
+        "Buyers often doubt if my sarees are truly handloom. This passport records each step as a hash-chained event and gives every saree a QR code.",
+        "When someone scans the QR, they see my process and the product's history — instead of just trusting a printed tag.",
+      ]}
+      guidePhase="Phase 2 – Authenticity & Stories"
+      guideProblemCode="Problem 2.2"
+    >
       <StepNav />
       <StepHeader
         step="Step 3 of 5"
