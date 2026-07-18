@@ -114,3 +114,11 @@ Thumbs.db
 # Agent/Tooling caches
 .claude/
 .gemini/
+
+# Pitch / presentation assets (local only, not part of the app)
+*.pptx
+.export-verify/
+scripts/export-pptx*.py
+scripts/render-pptx.py
+LoomMitra-Round1-Submission.txt
+LoomMitra-YouTube-Script-Hinglish.txt

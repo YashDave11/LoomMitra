@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { QrCode } from "lucide-react";
+import { QrCode, Route } from "lucide-react";
 
 import { DoodleCrosses, DoodleScribble } from "@/components/marketing/doodles";
 import AmbientBackground from "@/components/layout/AmbientBackground";
@@ -53,6 +53,19 @@ export default function AppShell({
           </nav>
         </div>
       </header>
+
+      {/* Heads-up strip: sets expectations that screens show the intended
+          flow with sample data, in the same sketch/dashed language. */}
+      <div className="relative z-40 border-b border-dashed border-amber-300 bg-amber-50/80 backdrop-blur-sm">
+        <div className="mx-auto flex max-w-6xl items-center justify-center gap-2 px-6 py-2 text-center text-xs text-amber-800">
+          <Route className="h-3.5 w-3.5 shrink-0" strokeWidth={2} />
+          <span>
+            <span className="font-semibold">Guided walkthrough</span> — this
+            screen shows the intended flow with sample data, so you can
+            experience how LoomMitra works end to end.
+          </span>
+        </div>
+      </div>
 
       <main className="relative z-10 flex-1 overflow-hidden">
         <DoodleCrosses className="left-[2%] top-24 hidden h-32 w-32 xl:block" />
