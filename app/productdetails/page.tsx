@@ -9,6 +9,7 @@ import {
   Fingerprint,
   MapPin,
   QrCode,
+  Route,
   ShieldCheck,
   ShoppingBag,
   Sparkles,
@@ -16,6 +17,7 @@ import {
 
 import AmbientBackground from "@/components/layout/AmbientBackground";
 import EventTimeline from "@/components/walkthrough/EventTimeline";
+import DemoToast, { useDemoToast } from "@/components/walkthrough/DemoToast";
 import { Button } from "@/components/ui/button";
 import {
   Card,
@@ -130,6 +132,7 @@ const initials = demoWeaver.name
 
 export default function ProductDetailsPage() {
   const [activeImage, setActiveImage] = useState(0);
+  const demoToast = useDemoToast();
 
   return (
     <div className="relative flex min-h-screen flex-col bg-white text-black">
@@ -150,6 +153,18 @@ export default function ProductDetailsPage() {
           </Badge>
         </div>
       </header>
+
+      {/* Heads-up strip: same expectation-setting note as the walkthrough */}
+      <div className="relative z-40 border-b border-dashed border-amber-300 bg-amber-50/80 backdrop-blur-sm">
+        <div className="mx-auto flex max-w-6xl items-center justify-center gap-2 px-6 py-2 text-center text-xs text-amber-800">
+          <Route className="h-3.5 w-3.5 shrink-0" strokeWidth={2} />
+          <span>
+            <span className="font-semibold">Guided walkthrough</span> — this
+            screen shows the intended flow with sample data, so you can
+            experience how LoomMitra works end to end.
+          </span>
+        </div>
+      </div>
 
       <main className="relative z-10 mx-auto w-full max-w-6xl flex-1 px-6 py-10">
         {/* ── Hero ─────────────────────────────────────────────── */}
@@ -243,7 +258,7 @@ export default function ProductDetailsPage() {
             </div>
 
             <div className="mt-6">
-              <Button size="lg">
+              <Button size="lg" onClick={demoToast.show}>
                 <ShoppingBag strokeWidth={1.75} />
                 Buy now (demo)
               </Button>
@@ -383,6 +398,8 @@ export default function ProductDetailsPage() {
       <footer className="relative z-10 border-t border-dashed border-neutral-300 bg-white/70 py-6 text-center text-xs text-neutral-500 backdrop-blur-sm">
         LoomMitra · digital product passport · Chanderi Handloom Cluster
       </footer>
+
+      <DemoToast open={demoToast.open} />
     </div>
   );
 }

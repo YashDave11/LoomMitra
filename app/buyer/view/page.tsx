@@ -1,9 +1,8 @@
 "use client";
 
-import { useEffect, useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
-import { AnimatePresence, motion } from "framer-motion";
+import { motion } from "framer-motion";
 import { ArrowRight, BadgeCheck, ShoppingBag } from "lucide-react";
 
 import AppShell from "@/components/layout/AppShell";
@@ -11,6 +10,7 @@ import StepNav from "@/components/walkthrough/StepNav";
 import StepHeader from "@/components/walkthrough/StepHeader";
 import InfoCard from "@/components/walkthrough/InfoCard";
 import EventTimeline from "@/components/walkthrough/EventTimeline";
+import DemoToast, { useDemoToast } from "@/components/walkthrough/DemoToast";
 import { Reveal } from "@/components/walkthrough/motion";
 import { Button } from "@/components/ui/button";
 import {
@@ -56,13 +56,7 @@ const storyImages = [
 ];
 
 export default function BuyerViewPage() {
-  const [toast, setToast] = useState(false);
-
-  useEffect(() => {
-    if (!toast) return;
-    const t = setTimeout(() => setToast(false), 2600);
-    return () => clearTimeout(t);
-  }, [toast]);
+  const demoToast = useDemoToast();
 
   return (
     <AppShell
@@ -229,7 +223,7 @@ export default function BuyerViewPage() {
       </Reveal>
 
       <div className="mt-10 flex flex-wrap items-center justify-between gap-4">
-        <Button size="lg" onClick={() => setToast(true)}>
+        <Button size="lg" onClick={demoToast.show}>
           <ShoppingBag strokeWidth={1.75} />
           Buy now (demo)
         </Button>
@@ -242,20 +236,7 @@ export default function BuyerViewPage() {
       </div>
 
       {/* Toast */}
-      <AnimatePresence>
-        {toast && (
-          <motion.div
-            role="status"
-            initial={{ opacity: 0, y: 24, scale: 0.95 }}
-            animate={{ opacity: 1, y: 0, scale: 1 }}
-            exit={{ opacity: 0, y: 12 }}
-            transition={{ type: "spring", stiffness: 320, damping: 24 }}
-            className="sketch-box fixed bottom-6 left-1/2 z-50 -translate-x-1/2 border-2 border-black bg-black px-5 py-3 text-sm font-semibold text-white shadow-lg"
-          >
-            Demo only – this is a prototype.
-          </motion.div>
-        )}
-      </AnimatePresence>
+      <DemoToast open={demoToast.open} />
     </AppShell>
   );
 }
