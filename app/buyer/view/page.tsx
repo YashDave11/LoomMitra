@@ -1,9 +1,10 @@
 "use client";
 
 import { useEffect, useState } from "react";
+import Image from "next/image";
 import Link from "next/link";
 import { AnimatePresence, motion } from "framer-motion";
-import { ArrowRight, BadgeCheck, Camera, ShoppingBag } from "lucide-react";
+import { ArrowRight, BadgeCheck, ShoppingBag } from "lucide-react";
 
 import AppShell from "@/components/layout/AppShell";
 import StepNav from "@/components/walkthrough/StepNav";
@@ -36,7 +37,23 @@ const initials = weaver.name
   .map((p) => p[0])
   .join("");
 
-const imagePlaceholders = ["Loom photo", "Fabric close-up", "Border detail"];
+const storyImages = [
+  {
+    caption: "Loom photo",
+    src: "/product-details/loom-photo.png",
+    alt: "Pit loom on which the saree is woven",
+  },
+  {
+    caption: "Fabric close-up",
+    src: "/product-details/fabric-closeup.png",
+    alt: "Close-up of the silk-cotton Chanderi weave",
+  },
+  {
+    caption: "Border detail",
+    src: "/product-details/border-detail.png",
+    alt: "Gold zari border with ashrafi buttis",
+  },
+];
 
 export default function BuyerViewPage() {
   const [toast, setToast] = useState(false);
@@ -178,16 +195,19 @@ export default function BuyerViewPage() {
                   {product.story}
                 </p>
                 <div className="mt-5 grid grid-cols-3 gap-3">
-                  {imagePlaceholders.map((caption) => (
-                    <figure key={caption}>
-                      <div className="sketch-box-alt flex aspect-square items-center justify-center border-2 border-dashed border-neutral-300 bg-neutral-100">
-                        <Camera
-                          className="h-6 w-6 text-neutral-400"
-                          strokeWidth={1.5}
+                  {storyImages.map((img) => (
+                    <figure key={img.caption}>
+                      <div className="sketch-box-alt relative aspect-square overflow-hidden border-2 border-dashed border-neutral-300 bg-neutral-100">
+                        <Image
+                          src={img.src}
+                          alt={img.alt}
+                          fill
+                          sizes="(max-width: 640px) 30vw, 180px"
+                          className="object-cover grayscale-[15%] transition-transform duration-300 hover:scale-105"
                         />
                       </div>
                       <figcaption className="mt-1.5 text-center text-xs text-neutral-500">
-                        {caption}
+                        {img.caption}
                       </figcaption>
                     </figure>
                   ))}

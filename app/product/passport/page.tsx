@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import { QRCodeSVG } from "qrcode.react";
-import { ArrowRight, Link2, ShieldCheck } from "lucide-react";
+import { ArrowRight, ExternalLink, Link2, ShieldCheck } from "lucide-react";
 
 import AppShell from "@/components/layout/AppShell";
 import StepNav from "@/components/walkthrough/StepNav";
@@ -28,7 +28,7 @@ import {
 const product = products[0];
 const weaver = weaverById(product.weaverId)!;
 const productEvents = eventsForProduct(product.id);
-const passportUrl = `https://loommitra.dev/product/${product.id}`;
+const passportUrl = "https://www.loommitra.live/productdetails";
 
 export default function ProductPassportPage() {
   return (
@@ -113,9 +113,19 @@ export default function ProductPassportPage() {
                   </p>
                   <p className="mt-1 flex items-center justify-center gap-1.5 font-mono text-xs text-neutral-600">
                     <Link2 className="h-3.5 w-3.5" strokeWidth={2} />
-                    {passportUrl}
+                    Scanned link: {passportUrl}
                   </p>
                 </div>
+                <Button asChild>
+                  <a
+                    href={passportUrl}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Visit product detail page
+                    <ExternalLink strokeWidth={2} />
+                  </a>
+                </Button>
               </CardContent>
             </Card>
           </Reveal>
