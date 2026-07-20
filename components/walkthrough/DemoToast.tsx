@@ -33,18 +33,23 @@ export default function DemoToast({ open }: { open: boolean }) {
   return createPortal(
     <AnimatePresence>
       {open && (
-        <motion.div
-          role="status"
-          initial={{ opacity: 0, y: 24, scale: 0.95 }}
-          animate={{ opacity: 1, y: 0, scale: 1 }}
-          exit={{ opacity: 0, y: 12 }}
-          transition={{ type: "spring", stiffness: 320, damping: 24 }}
-          className="sketch-box fixed bottom-20 left-1/2 z-[100] flex w-max max-w-[calc(100vw-2rem)] -translate-x-1/2 items-center gap-2.5 border-2 border-black bg-black px-5 py-3 text-sm font-semibold text-white shadow-[5px_5px_0_0_rgba(0,0,0,0.25)]"
-        >
-          <PartyPopper className="h-4 w-4 shrink-0" strokeWidth={1.75} />
-          Thanks for trying LoomMitra! This is a demo — no real order was
-          placed.
-        </motion.div>
+        // Centering lives on this wrapper, not the toast: framer-motion owns
+        // the toast's inline `transform`, so a -translate-x-1/2 there gets
+        // overwritten and the toast drifts right / off-screen on phones.
+        <div className="pointer-events-none fixed inset-x-0 bottom-20 z-[100] flex justify-center px-4">
+          <motion.div
+            role="status"
+            initial={{ opacity: 0, y: 24, scale: 0.95 }}
+            animate={{ opacity: 1, y: 0, scale: 1 }}
+            exit={{ opacity: 0, y: 12 }}
+            transition={{ type: "spring", stiffness: 320, damping: 24 }}
+            className="sketch-box pointer-events-auto flex max-w-full items-center gap-2.5 border-2 border-black bg-black px-5 py-3 text-sm font-semibold text-white shadow-[5px_5px_0_0_rgba(0,0,0,0.25)]"
+          >
+            <PartyPopper className="h-4 w-4 shrink-0" strokeWidth={1.75} />
+            Thanks for trying LoomMitra! This is a demo — no real order was
+            placed.
+          </motion.div>
+        </div>
       )}
     </AnimatePresence>,
     document.body
