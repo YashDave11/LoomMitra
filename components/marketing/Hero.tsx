@@ -73,8 +73,8 @@ export default function Hero() {
         >
           <motion.div whileHover={{ scale: 1.04 }} whileTap={{ scale: 0.97 }}>
             <Button asChild size="lg">
-              <Link href="/dashboard">
-                Open Interactive Prototype
+              <Link href="/auth/register">
+                Register
                 <ArrowRight strokeWidth={2} />
               </Link>
             </Button>

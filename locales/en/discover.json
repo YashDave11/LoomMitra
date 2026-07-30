@@ -1,0 +1,27 @@
+{
+  "badge": "Marketplace",
+  "title": "Discover Authentic Handloom",
+  "subtitle": "Source directly from verified weavers across India. Explore unique weaves, distinct designs, and rich heritage.",
+  "hideFilters": "Hide Filters",
+  "showFilters": "Show Filters",
+  "filters": {
+    "title": "Filters",
+    "searchPlaceholder": "Search sarees, motifs...",
+    "category": "Category",
+    "allCategories": "All Categories",
+    "location": "Cluster / Location",
+    "allLocations": "All Locations",
+    "design": "Design / Motif",
+    "allDesigns": "All Designs",
+    "allMaterials": "All Materials",
+    "clear": "Clear Filters"
+  },
+  "empty": {
+    "title": "No products found",
+    "hint": "Try adjusting your filters to find what you're looking for.",
+    "clearAll": "Clear all filters"
+  },
+  "catalogBadge": "Catalog",
+  "unknownWeaver": "Unknown Weaver",
+  "unknownCluster": "Unknown Cluster"
+}

@@ -1,0 +1,68 @@
+{
+  "dashboard": {
+    "welcomeBack": "மீண்டும் வரவேற்கிறோம், {{name}}",
+    "welcome": "LoomMitra-க்கு வரவேற்கிறோம்",
+    "subtitle": "உங்கள் RFQ-களை கண்காணித்து, நெசவாளர்களிடமிருந்து நேரடியாக உண்மையான கைத்தறி பொருட்களை வாங்குங்கள்.",
+    "discoverProducts": "பொருட்களை கண்டறியுங்கள்",
+    "stats": {
+      "rfqsSent": "அனுப்பிய RFQ-கள்",
+      "active": "செயலில்",
+      "inNegotiation": "பேரம் நடக்கிறது",
+      "accepted": "ஏற்கப்பட்டது",
+      "totalUnits": "மொத்தம் கேட்ட அளவு"
+    },
+    "recentRfqs": {
+      "title": "சமீபத்திய RFQ-கள்",
+      "description": "உங்கள் புதிய மொத்த ஆர்டர் கோரிக்கைகள்",
+      "viewAll": "அனைத்தையும் பார்க்க",
+      "empty": "இன்னும் RFQ எதுவும் அனுப்பவில்லை.",
+      "browse": "தொடங்க பொருட்களை பாருங்கள்",
+      "qty": "அளவு: {{count}}",
+      "unknownProduct": "தெரியாத பொருள்"
+    },
+    "quickActions": {
+      "title": "விரைவு செயல்கள்",
+      "description": "பொதுவான வேலைகளுக்கான குறுக்குவழிகள்",
+      "viewAllRfqs": "அனைத்து RFQ-களையும் பார்க்க",
+      "verifyProduct": "பொருளை சரிபார்க்க",
+      "completeProfile": "வணிக சுயவிவரத்தை முடிக்கவும்"
+    }
+  },
+  "orders": {
+    "title": "மொத்த ஆர்டர் கோரிக்கைகள்",
+    "subtitle": "உங்கள் RFQ-களை பார்த்து, நெசவாளர் விலைகளை சரிபார்த்து, இறுதி விலையில் பேரம் பேசுங்கள்.",
+    "actionRequired": "உங்கள் பதில் தேவை ({{count}})",
+    "noQuotes": "இப்போது எந்த விலையும் உங்கள் பார்வைக்கு இல்லை.",
+    "unknownWeaver": "தெரியாத நெசவாளர்",
+    "weaverLabel": "நெசவாளர்:",
+    "quoteForUnits": "{{count}} பொருட்களுக்கு நெசவாளர் விலை",
+    "perUnit": "/ ஒன்று",
+    "totalAmount": "மொத்தம்: ₹{{amount}}",
+    "quoteReceived": "விலை வந்தது",
+    "counterPrice": "உங்கள் பேர விலை",
+    "counterPlaceholder": "எ.கா. 1400",
+    "bargain": "பேரம் பேச",
+    "acceptQuote": "விலையை ஏற்க",
+    "history": "வரலாறு & நிலுவை",
+    "qty": "அளவு:",
+    "pricePerUnit": "₹{{price}} / ஒன்று",
+    "offer": "பேர விலை: ₹{{price}}",
+    "quote": "விலை: ₹{{price}}",
+    "waitingForQuote": "விலைக்காக காத்திருக்கிறது",
+    "productImageAlt": "பொருள்",
+    "errors": {
+      "invalidBargainPrice": "சரியான விலையை உள்ளிடுங்கள்.",
+      "negotiateFailed": "பேரம் பேச முடியவில்லை"
+    }
+  },
+  "profile": {
+    "title": "வணிக சுயவிவரம்",
+    "businessName": "வணிகத்தின் பெயர்",
+    "contactEmail": "தொடர்பு மின்னஞ்சல்",
+    "contactPhone": "தொடர்பு தொலைபேசி",
+    "gstNumber": "GST எண் (விருப்பம்)",
+    "save": "சுயவிவரத்தை சேமிக்க",
+    "saving": "சேமிக்கிறது…",
+    "saveFailed": "சுயவிவரத்தை சேமிக்க முடியவில்லை"
+  }
+}

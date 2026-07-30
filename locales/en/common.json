@@ -1,0 +1,84 @@
+{
+  "appName": "LoomMitra",
+  "language": {
+    "label": "Language"
+  },
+  "actions": {
+    "save": "Save",
+    "cancel": "Cancel",
+    "delete": "Delete",
+    "edit": "Edit",
+    "add": "Add",
+    "back": "Back",
+    "next": "Next",
+    "close": "Close",
+    "confirm": "Confirm",
+    "view": "View",
+    "search": "Search",
+    "retry": "Retry",
+    "accept": "Accept",
+    "reject": "Reject",
+    "send": "Send",
+    "remove": "Remove",
+    "update": "Update",
+    "loading": "Loading…",
+    "submitting": "Please wait…"
+  },
+  "fields": {
+    "price": "Price",
+    "stock": "Stock",
+    "quantity": "Quantity",
+    "total": "Total",
+    "status": "Status",
+    "date": "Date",
+    "name": "Name",
+    "email": "Email",
+    "phone": "Phone",
+    "city": "City",
+    "address": "Address",
+    "pincode": "PIN Code",
+    "description": "Description",
+    "material": "Material",
+    "location": "Location",
+    "type": "Type",
+    "design": "Design"
+  },
+  "productTypes": {
+    "SAREE": "Saree",
+    "MUFFLER": "Muffler",
+    "DUPATTA": "Dupatta",
+    "STOLE": "Stole",
+    "FABRIC": "Fabric",
+    "OTHER": "Other"
+  },
+  "productStatus": {
+    "DRAFT": "Draft",
+    "READY": "Ready"
+  },
+  "orderStatus": {
+    "PENDING": "Pending",
+    "WEAVER_RESPONDED": "Weaver Replied",
+    "BARGAINING": "Bargaining",
+    "ACCEPTED": "Accepted",
+    "REJECTED": "Rejected",
+    "PLACED": "Placed",
+    "READY": "Ready",
+    "SHIPPED": "Shipped",
+    "DELIVERED": "Delivered"
+  },
+  "roles": {
+    "WEAVER": "Weaver",
+    "BUSINESS": "Business",
+    "CUSTOMER": "Customer"
+  },
+  "empty": {
+    "noProducts": "No products yet",
+    "noOrders": "No orders yet",
+    "noResults": "Nothing found"
+  },
+  "errors": {
+    "generic": "Something went wrong",
+    "tryAgain": "Please try again",
+    "required": "This is required"
+  }
+}

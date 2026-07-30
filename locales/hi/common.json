@@ -1,0 +1,84 @@
+{
+  "appName": "LoomMitra",
+  "language": {
+    "label": "भाषा"
+  },
+  "actions": {
+    "save": "सहेजें",
+    "cancel": "रद्द करें",
+    "delete": "हटाएँ",
+    "edit": "बदलें",
+    "add": "जोड़ें",
+    "back": "वापस",
+    "next": "आगे",
+    "close": "बंद करें",
+    "confirm": "पक्का करें",
+    "view": "देखें",
+    "search": "खोजें",
+    "retry": "फिर कोशिश करें",
+    "accept": "मंज़ूर करें",
+    "reject": "मना करें",
+    "send": "भेजें",
+    "remove": "हटाएँ",
+    "update": "बदलें",
+    "loading": "लोड हो रहा है…",
+    "submitting": "रुकिए…"
+  },
+  "fields": {
+    "price": "दाम",
+    "stock": "स्टॉक",
+    "quantity": "मात्रा",
+    "total": "कुल",
+    "status": "स्थिति",
+    "date": "तारीख़",
+    "name": "नाम",
+    "email": "ईमेल",
+    "phone": "फ़ोन",
+    "city": "शहर",
+    "address": "पता",
+    "pincode": "पिन कोड",
+    "description": "विवरण",
+    "material": "सामग्री",
+    "location": "जगह",
+    "type": "प्रकार",
+    "design": "डिज़ाइन"
+  },
+  "productTypes": {
+    "SAREE": "साड़ी",
+    "MUFFLER": "मफलर",
+    "DUPATTA": "दुपट्टा",
+    "STOLE": "स्टोल",
+    "FABRIC": "कपड़ा",
+    "OTHER": "अन्य"
+  },
+  "productStatus": {
+    "DRAFT": "ड्राफ़्ट",
+    "READY": "तैयार"
+  },
+  "orderStatus": {
+    "PENDING": "बाकी",
+    "WEAVER_RESPONDED": "बुनकर का जवाब आया",
+    "BARGAINING": "मोल-भाव जारी",
+    "ACCEPTED": "मंज़ूर",
+    "REJECTED": "मना किया",
+    "PLACED": "ऑर्डर मिला",
+    "READY": "तैयार",
+    "SHIPPED": "भेजा गया",
+    "DELIVERED": "पहुँच गया"
+  },
+  "roles": {
+    "WEAVER": "बुनकर",
+    "BUSINESS": "व्यापारी",
+    "CUSTOMER": "ग्राहक"
+  },
+  "empty": {
+    "noProducts": "अभी कोई उत्पाद नहीं",
+    "noOrders": "अभी कोई ऑर्डर नहीं",
+    "noResults": "कुछ नहीं मिला"
+  },
+  "errors": {
+    "generic": "कुछ गड़बड़ हुई",
+    "tryAgain": "फिर कोशिश करें",
+    "required": "यह ज़रूरी है"
+  }
+}

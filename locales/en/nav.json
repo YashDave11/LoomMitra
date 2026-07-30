@@ -1,0 +1,19 @@
+{
+  "dashboard": "Dashboard",
+  "products": "Products",
+  "bulkOrders": "Bulk Orders / RFQs",
+  "customerOrders": "Customer Orders",
+  "auctionHouse": "Auction House",
+  "profileVerification": "Profile & Verification",
+  "discoverCatalog": "Discover Catalog",
+  "verifyProduct": "Verify Product",
+  "discover": "Discover",
+  "cart": "Cart",
+  "myOrders": "My Orders",
+  "profile": "Profile",
+  "signOut": "Sign out",
+  "collapse": "Collapse",
+  "openMenu": "Open menu",
+  "roleDashboard": "{{role}} Dashboard",
+  "home": "Home"
+}

@@ -1,0 +1,19 @@
+{
+  "dashboard": "डैशबोर्ड",
+  "products": "उत्पाद",
+  "bulkOrders": "थोक ऑर्डर / RFQ",
+  "customerOrders": "ग्राहक ऑर्डर",
+  "profileVerification": "प्रोफ़ाइल और सत्यापन",
+  "discoverCatalog": "कैटलॉग देखें",
+  "verifyProduct": "उत्पाद जाँचें",
+  "discover": "खोजें",
+  "cart": "कार्ट",
+  "myOrders": "मेरे ऑर्डर",
+  "profile": "प्रोफ़ाइल",
+  "signOut": "साइन आउट",
+  "collapse": "छोटा करें",
+  "openMenu": "मेन्यू खोलें",
+  "roleDashboard": "{{role}} डैशबोर्ड",
+  "home": "होम",
+  "auctionHouse": "नीलामी घर"
+}

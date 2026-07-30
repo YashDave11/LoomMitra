@@ -1,0 +1,318 @@
+{
+  "backToMarketplace": "बाज़ार पर वापस जाएं",
+  "noImages": "कोई फ़ोटो नहीं है।",
+  "galleryThumbAlt": "गैलरी की छोटी फ़ोटो",
+  "catalogPhotos": "कैटलॉग फ़ोटो",
+  "rawImages": "मूल फ़ोटो",
+  "catalogPendingLine1": "बुनकर की कैटलॉग फ़ोटो अभी बन रही हैं।",
+  "catalogPendingLine2": "अपलोड की गई फ़ोटो के लिए \"मूल फ़ोटो\" टैब देखें।",
+  "readyToShip": "भेजने के लिए तैयार",
+  "defaultLocation": "भारत",
+  "perUnit": "प्रति नग",
+  "descriptionHeading": "विवरण",
+  "designMotif": "डिज़ाइन / बूटी",
+  "availableStock": "उपलब्ध स्टॉक",
+  "stockUnits": "{{count}} नग",
+  "verifiedWeaver": "प्रमाणित बुनकर",
+  "unknownWeaver": "अज्ञात बुनकर",
+  "cluster": {
+    "chanderi": "चंदेरी",
+    "maheshwari": "महेश्वरी",
+    "kanchipuram": "कांचीपुरम",
+    "banarasi": "बनारसी",
+    "pochampally": "पोचमपल्ली",
+    "bhagalpur": "भागलपुर",
+    "kullu": "कुल्लू",
+    "kota_doria": "कोटा डोरिया",
+    "sambalpuri": "संबलपुरी",
+    "venkatagiri": "वेंकटगिरि",
+    "uppada": "उप्पाडा",
+    "jamdani": "जामदानी",
+    "ilkal": "इलकल",
+    "mangalagiri": "मंगलगिरि",
+    "bomkai": "बोमकाई",
+    "patan_patola": "पाटन पटोला",
+    "muga_assam": "मूगा (असम)",
+    "other": "अन्य"
+  },
+  "govVerified": "सरकार से प्रमाणित",
+  "rfq": {
+    "title": "बल्क ऑर्डर अनुरोध (RFQ)",
+    "description": "बुनकर से सीधे बल्क दाम पर मोल-भाव के लिए अनुरोध भेजें।",
+    "quantityLabel": "ज़रूरी मात्रा",
+    "quantityPlaceholder": "जैसे 50",
+    "invalidQuantity": "कृपया 0 से ज़्यादा सही मात्रा डालें।",
+    "submitFailed": "अनुरोध भेजा नहीं जा सका।",
+    "success": "अनुरोध भेज दिया गया! बुनकर के दाम के लिए अपना डैशबोर्ड देखें।",
+    "send": "बुनकर को अनुरोध भेजें",
+    "sending": "अनुरोध भेजा जा रहा है..."
+  },
+  "addToCart": "कार्ट में डालें",
+  "buyNow": "अभी खरीदें",
+  "form": {
+    "basicStep": "मूल जानकारी",
+    "basicStepDesc": "ज़रूरी। ड्राफ्ट सहेजने के लिए इतना काफ़ी है।",
+    "advancedStep": "और जानकारी",
+    "advancedStepDesc": "वैकल्पिक। खरीदारों को आपको खोजने में मदद करती है।",
+    "showAdvanced": "और जानकारी जोड़ें",
+    "hideAdvanced": "अतिरिक्त जानकारी छिपाएं",
+    "optional": "(वैकल्पिक)",
+    "select": "चुनें",
+    "saveDraft": "ड्राफ्ट सहेजें",
+    "saving": "सहेजा जा रहा है...",
+    "cancel": "रद्द करें",
+    "title": {
+      "label": "नाम",
+      "placeholder": "जैसे चंदेरी सिल्क साड़ी"
+    },
+    "description": {
+      "label": "छोटा विवरण",
+      "placeholder": "इस उत्पाद के बारे में एक-दो पंक्तियाँ"
+    },
+    "category": {
+      "label": "श्रेणी"
+    },
+    "subcategory": {
+      "label": "उप-श्रेणी"
+    },
+    "cluster": {
+      "label": "क्लस्टर"
+    },
+    "material": {
+      "label": "कपड़ा"
+    },
+    "pattern": {
+      "label": "डिज़ाइन"
+    },
+    "primaryColor": {
+      "label": "मुख्य रंग"
+    },
+    "secondaryColor": {
+      "label": "दूसरा रंग"
+    },
+    "length": {
+      "label": "लंबाई (मीटर)",
+      "placeholder": "जैसे 5.5"
+    },
+    "width": {
+      "label": "चौड़ाई (मीटर)",
+      "placeholder": "जैसे 1.2"
+    },
+    "weight": {
+      "label": "वज़न (ग्राम)",
+      "placeholder": "जैसे 450"
+    },
+    "basePrice": {
+      "label": "मूल दाम",
+      "placeholder": "जैसे 2000"
+    },
+    "price": {
+      "label": "दाम",
+      "placeholder": "जैसे 2500"
+    },
+    "currency": {
+      "label": "मुद्रा"
+    },
+    "stock": {
+      "label": "स्टॉक",
+      "placeholder": "जैसे 10"
+    },
+    "minOrderQuantity": {
+      "label": "न्यूनतम ऑर्डर मात्रा",
+      "placeholder": "जैसे 1"
+    },
+    "isAvailable": {
+      "label": "बिक्री के लिए उपलब्ध"
+    },
+    "stockType": {
+      "label": "स्टॉक प्रकार"
+    },
+    "leadTime": {
+      "label": "बनाने का समय (दिन)",
+      "placeholder": "जैसे 15"
+    },
+    "maxOrderCapacity": {
+      "label": "अधिकतम क्षमता",
+      "placeholder": "जैसे 50"
+    },
+    "isHandloom": {
+      "label": "असली हथकरघा"
+    },
+    "giTag": {
+      "label": "GI टैग",
+      "placeholder": "जैसे चंदेरी फ़ैब्रिक"
+    },
+    "certification": {
+      "label": "प्रमाणपत्र",
+      "placeholder": "प्रमाणपत्र का नाम या नंबर"
+    },
+    "care": {
+      "label": "देखभाल",
+      "placeholder": "जैसे केवल ड्राई क्लीन"
+    },
+    "targetAudience": {
+      "label": "किसके लिए"
+    },
+    "usageContext": {
+      "label": "अवसर"
+    },
+    "images": {
+      "label": "फ़ोटो",
+      "hint": "कम से कम 1 फ़ोटो जोड़ें। सहेजने के बाद भी अपलोड कर सकते हैं।"
+    },
+    "errors": {
+      "title": "कृपया नाम लिखें।",
+      "category": "कृपया श्रेणी चुनें।",
+      "cluster": "कृपया क्लस्टर चुनें।",
+      "material": "कृपया कपड़ा चुनें।",
+      "length": "कृपया लंबाई मीटर में लिखें।",
+      "price": "कृपया 0 से ज़्यादा दाम लिखें।",
+      "stock": "कृपया 1 या अधिक स्टॉक लिखें।",
+      "save": "उत्पाद सहेजा नहीं जा सका। फिर से कोशिश करें।"
+    }
+  },
+  "category": {
+    "saree": "साड़ी",
+    "dupatta": "दुपट्टा",
+    "stole": "स्टोल",
+    "muffler": "मफ़लर",
+    "fabric": "कपड़ा / थान",
+    "other": "अन्य"
+  },
+  "subcategory": {
+    "cotton_saree": "सूती साड़ी",
+    "silk_saree": "रेशमी साड़ी",
+    "cotton_silk_saree": "कॉटन-सिल्क साड़ी",
+    "linen_saree": "लिनन साड़ी",
+    "tussar_saree": "टसर साड़ी",
+    "cotton_dupatta": "सूती दुपट्टा",
+    "silk_dupatta": "रेशमी दुपट्टा",
+    "wool_dupatta": "ऊनी दुपट्टा",
+    "cotton_stole": "सूती स्टोल",
+    "silk_stole": "रेशमी स्टोल",
+    "wool_stole": "ऊनी स्टोल",
+    "cotton_muffler": "सूती मफ़लर",
+    "wool_muffler": "ऊनी मफ़लर",
+    "running_fabric": "रनिंग फ़ैब्रिक",
+    "yardage": "थान",
+    "furnishing": "फ़र्निशिंग"
+  },
+  "material": {
+    "cotton": "सूती",
+    "silk": "रेशम",
+    "cotton_silk": "कॉटन-सिल्क",
+    "linen": "लिनन",
+    "wool": "ऊन",
+    "tussar": "टसर",
+    "jute": "जूट",
+    "blend": "मिश्रित",
+    "other": "अन्य"
+  },
+  "pattern": {
+    "plain": "सादा",
+    "checks": "चेक",
+    "stripes": "धारियां",
+    "floral": "फूलदार",
+    "temple_border": "मंदिर बॉर्डर",
+    "zari_border": "ज़री बॉर्डर",
+    "buti": "बूटी",
+    "geometric": "ज्यामितीय",
+    "ikat": "इकत",
+    "other": "अन्य"
+  },
+  "color": {
+    "red": "लाल",
+    "maroon": "मैरून",
+    "pink": "गुलाबी",
+    "orange": "नारंगी",
+    "yellow": "पीला",
+    "green": "हरा",
+    "blue": "नीला",
+    "indigo": "नील",
+    "purple": "बैंगनी",
+    "black": "काला",
+    "white": "सफ़ेद",
+    "cream": "क्रीम",
+    "grey": "स्लेटी",
+    "brown": "भूरा",
+    "gold": "सुनहरा",
+    "silver": "चांदी",
+    "multicolor": "बहुरंगी"
+  },
+  "currency": {
+    "inr": "INR (₹)"
+  },
+  "stock_type": {
+    "ready_stock": "तैयार स्टॉक",
+    "made_to_order": "ऑर्डर पर बनेगा"
+  },
+  "target_audience": {
+    "women": "महिलाएं",
+    "men": "पुरुष",
+    "unisex": "सभी",
+    "kids": "बच्चे",
+    "home_decor": "घर की सजावट",
+    "fabric": "कपड़ा"
+  },
+  "usage_context": {
+    "daily_wear": "रोज़ पहनने के लिए",
+    "festive": "त्योहार",
+    "bridal": "शादी",
+    "office": "दफ़्तर",
+    "export": "निर्यात",
+    "other": "अन्य"
+  },
+  "status": {
+    "draft": "ड्राफ्ट",
+    "ready": "प्रकाशित",
+    "archived": "संग्रहित"
+  },
+  "wizard": {
+    "progress": "{{total}} में से {{current}}",
+    "next": "आगे",
+    "back": "पीछे",
+    "skip": "छोड़ें",
+    "takePhoto": "फ़ोटो खींचें",
+    "gallery": "गैलरी से चुनें",
+    "removePhoto": "फ़ोटो हटाएं",
+    "photosQuestion": "अपने उत्पाद की फ़ोटो जोड़ें",
+    "titleQuestion": "इस उत्पाद का नाम क्या है?",
+    "categoryQuestion": "आप क्या बेच रहे हैं?",
+    "clusterQuestion": "यह किस बुनाई क्लस्टर से है?",
+    "materialQuestion": "यह किस कपड़े से बना है?",
+    "lengthQuestion": "इसकी लंबाई कितनी है?",
+    "priceQuestion": "इसका दाम क्या है?",
+    "stockQuestion": "आपके पास कितने हैं?",
+    "subcategoryQuestion": "यह किस तरह का है?",
+    "primaryColorQuestion": "मुख्य रंग कौन सा है?",
+    "secondaryColorQuestion": "कोई दूसरा रंग?",
+    "patternQuestion": "डिज़ाइन कैसा है?",
+    "widthQuestion": "इसकी चौड़ाई कितनी है?",
+    "weightQuestion": "इसका वज़न कितना है?",
+    "minOrderQuestion": "न्यूनतम ऑर्डर मात्रा?",
+    "stockTypeQuestion": "अभी तैयार है, या ऑर्डर पर बनेगा?",
+    "leadTimeQuestion": "एक बनाने में कितने दिन लगते हैं?",
+    "maxCapacityQuestion": "एक ऑर्डर में ज़्यादा से ज़्यादा कितने बना सकते हैं?",
+    "isHandloomQuestion": "क्या यह असली हथकरघा है?",
+    "giTagQuestion": "क्या इसका GI टैग है?",
+    "certificationQuestion": "कोई प्रमाणपत्र?",
+    "careQuestion": "खरीदार इसकी देखभाल कैसे करे?",
+    "targetAudienceQuestion": "यह किसके लिए है?",
+    "usageContextQuestion": "इसे कब पहनेंगे या इस्तेमाल करेंगे?",
+    "unitMeters": "मीटर",
+    "unitGrams": "ग्राम",
+    "unitRupees": "₹",
+    "unitDays": "दिन",
+    "unitPieces": "नग",
+    "yes": "हाँ",
+    "no": "नहीं",
+    "otherQuestion": "अपने शब्दों में लिखें",
+    "otherPlaceholder": "यहाँ लिखें",
+    "reviewTitle": "अपनी लिस्टिंग जांचें",
+    "reviewSubtitle": "बदलने के लिए किसी भी पंक्ति पर टैप करें",
+    "photos": "फ़ोटो",
+    "publish": "प्रकाशित करें",
+    "publishing": "प्रकाशित हो रहा है...",
+    "addMore": "और जानकारी जोड़ें"
+  }
+}

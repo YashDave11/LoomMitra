@@ -1,0 +1,15 @@
+{
+  "title": "उत्पाद की असलियत जांचें",
+  "subtitle": "उत्पाद का LoomMitra QR कोड स्कैन करें या डालें और उसकी असलियत जांचें।",
+  "lookupTitle": "उत्पाद खोजें",
+  "placeholder": "QR कोड से उत्पाद ID डालें...",
+  "lookUp": "खोजें",
+  "notFound": "उत्पाद नहीं मिला। ID जांचकर फिर कोशिश करें।",
+  "verifiedBanner": "उत्पाद मिला — प्रमाणित",
+  "stockUnits": "{{count}} नग",
+  "cluster": "{{cluster}} क्लस्टर",
+  "govVerified": "सरकार से प्रमाणित",
+  "productId": "उत्पाद ID: {{id}}",
+  "listed": "सूचीबद्ध: {{date}}",
+  "catalogStatus": "कैटलॉग स्थिति: {{status}}"
+}

@@ -11,6 +11,29 @@
   }
 }
 
+/* ── Google Translate widget: hide its chrome ──
+   The widget injects a top banner + tweaks <body> top offset. We drive it
+   from our own dropdown, so hide all of its UI and undo the body shift. */
+.goog-te-banner-frame,
+.skiptranslate,
+#goog-gt-tt,
+.goog-te-balloon-frame {
+  display: none !important;
+}
+body {
+  top: 0 !important;
+  position: static !important;
+}
+/* Don't let Google's highlight/underline styling leak into the UI. */
+.goog-text-highlight {
+  background: none !important;
+  box-shadow: none !important;
+}
+font[style] {
+  vertical-align: inherit !important;
+}
+
+
 @layer utilities {
   /* Sketchy, irregular border radius — the Excalidraw "hand-drawn box" trick */
   .sketch-box {

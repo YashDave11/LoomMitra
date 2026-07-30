@@ -1,0 +1,318 @@
+{
+  "backToMarketplace": "বাজারে ফিরে যান",
+  "noImages": "কোনো ছবি নেই।",
+  "galleryThumbAlt": "গ্যালারির ছোট ছবি",
+  "catalogPhotos": "ক্যাটালগ ছবি",
+  "rawImages": "মূল ছবি",
+  "catalogPendingLine1": "তাঁতির ক্যাটালগ ছবি এখনও তৈরি হচ্ছে।",
+  "catalogPendingLine2": "আপলোড করা ছবির জন্য \"মূল ছবি\" ট্যাব দেখুন।",
+  "readyToShip": "পাঠানোর জন্য প্রস্তুত",
+  "defaultLocation": "ভারত",
+  "perUnit": "প্রতিটি",
+  "descriptionHeading": "বিবরণ",
+  "designMotif": "নকশা / মোটিফ",
+  "availableStock": "মজুত আছে",
+  "stockUnits": "{{count}}টি",
+  "verifiedWeaver": "যাচাইকৃত তাঁতি",
+  "unknownWeaver": "অজানা তাঁতি",
+  "cluster": {
+    "chanderi": "চান্দেরি",
+    "maheshwari": "মহেশ্বরী",
+    "kanchipuram": "কাঞ্চিপুরম",
+    "banarasi": "বেনারসি",
+    "pochampally": "পোচামপল্লি",
+    "bhagalpur": "ভাগলপুর",
+    "kullu": "কুলু",
+    "kota_doria": "কোটা ডোরিয়া",
+    "sambalpuri": "সম্বলপুরি",
+    "venkatagiri": "ভেঙ্কটগিরি",
+    "uppada": "উপ্পাদা",
+    "jamdani": "জামদানি",
+    "ilkal": "ইলকল",
+    "mangalagiri": "মঙ্গলগিরি",
+    "bomkai": "বোমকাই",
+    "patan_patola": "পাটন পাটোলা",
+    "muga_assam": "মুগা (আসাম)",
+    "other": "অন্যান্য"
+  },
+  "govVerified": "সরকার কর্তৃক যাচাইকৃত",
+  "rfq": {
+    "title": "বাল্ক অর্ডার অনুরোধ (RFQ)",
+    "description": "তাঁতির সাথে সরাসরি বাল্ক দামে দর কষাকষির জন্য অনুরোধ পাঠান।",
+    "quantityLabel": "প্রয়োজনীয় পরিমাণ",
+    "quantityPlaceholder": "যেমন 50",
+    "invalidQuantity": "0-এর বেশি সঠিক পরিমাণ লিখুন।",
+    "submitFailed": "অনুরোধ পাঠানো যায়নি।",
+    "success": "অনুরোধ পাঠানো হয়েছে! তাঁতির দামের জন্য আপনার ড্যাশবোর্ড দেখুন।",
+    "send": "তাঁতিকে অনুরোধ পাঠান",
+    "sending": "অনুরোধ পাঠানো হচ্ছে..."
+  },
+  "addToCart": "কার্টে যোগ করুন",
+  "buyNow": "এখনই কিনুন",
+  "form": {
+    "basicStep": "মূল তথ্য",
+    "basicStepDesc": "আবশ্যক। খসড়া সংরক্ষণের জন্য যথেষ্ট।",
+    "advancedStep": "আরও তথ্য",
+    "advancedStepDesc": "ঐচ্ছিক। ক্রেতাদের আপনাকে খুঁজে পেতে সাহায্য করে।",
+    "showAdvanced": "আরও তথ্য যোগ করুন",
+    "hideAdvanced": "অতিরিক্ত তথ্য লুকান",
+    "optional": "(ঐচ্ছিক)",
+    "select": "নির্বাচন করুন",
+    "saveDraft": "খসড়া সংরক্ষণ করুন",
+    "saving": "সংরক্ষণ হচ্ছে...",
+    "cancel": "বাতিল",
+    "title": {
+      "label": "নাম",
+      "placeholder": "যেমন চান্দেরি সিল্ক শাড়ি"
+    },
+    "description": {
+      "label": "সংক্ষিপ্ত বিবরণ",
+      "placeholder": "এই পণ্য সম্পর্কে এক-দুই লাইন"
+    },
+    "category": {
+      "label": "বিভাগ"
+    },
+    "subcategory": {
+      "label": "উপ-বিভাগ"
+    },
+    "cluster": {
+      "label": "ক্লাস্টার"
+    },
+    "material": {
+      "label": "কাপড়"
+    },
+    "pattern": {
+      "label": "নকশা"
+    },
+    "primaryColor": {
+      "label": "প্রধান রং"
+    },
+    "secondaryColor": {
+      "label": "দ্বিতীয় রং"
+    },
+    "length": {
+      "label": "দৈর্ঘ্য (মিটার)",
+      "placeholder": "যেমন 5.5"
+    },
+    "width": {
+      "label": "প্রস্থ (মিটার)",
+      "placeholder": "যেমন 1.2"
+    },
+    "weight": {
+      "label": "ওজন (গ্রাম)",
+      "placeholder": "যেমন 450"
+    },
+    "basePrice": {
+      "label": "মূল দাম",
+      "placeholder": "যেমন 2000"
+    },
+    "price": {
+      "label": "দাম",
+      "placeholder": "যেমন 2500"
+    },
+    "currency": {
+      "label": "মুদ্রা"
+    },
+    "stock": {
+      "label": "স্টক",
+      "placeholder": "যেমন 10"
+    },
+    "minOrderQuantity": {
+      "label": "ন্যূনতম অর্ডার পরিমাণ",
+      "placeholder": "যেমন 1"
+    },
+    "isAvailable": {
+      "label": "বিক্রয়ের জন্য উপলব্ধ"
+    },
+    "stockType": {
+      "label": "স্টকের ধরন"
+    },
+    "leadTime": {
+      "label": "তৈরির সময় (দিন)",
+      "placeholder": "যেমন 15"
+    },
+    "maxOrderCapacity": {
+      "label": "সর্বোচ্চ ক্ষমতা",
+      "placeholder": "যেমন 50"
+    },
+    "isHandloom": {
+      "label": "আসল হস্তচালিত তাঁত"
+    },
+    "giTag": {
+      "label": "GI ট্যাগ",
+      "placeholder": "যেমন চান্দেরি ফ্যাব্রিক"
+    },
+    "certification": {
+      "label": "সার্টিফিকেট",
+      "placeholder": "সার্টিফিকেটের নাম বা নম্বর"
+    },
+    "care": {
+      "label": "যত্ন",
+      "placeholder": "যেমন শুধু ড্রাই ক্লিন"
+    },
+    "targetAudience": {
+      "label": "কার জন্য"
+    },
+    "usageContext": {
+      "label": "উপলক্ষ"
+    },
+    "images": {
+      "label": "ছবি",
+      "hint": "কমপক্ষে ১টি ছবি যোগ করুন। সংরক্ষণের পরেও আপলোড করা যাবে।"
+    },
+    "errors": {
+      "title": "অনুগ্রহ করে নাম লিখুন।",
+      "category": "অনুগ্রহ করে বিভাগ নির্বাচন করুন।",
+      "cluster": "অনুগ্রহ করে ক্লাস্টার নির্বাচন করুন।",
+      "material": "অনুগ্রহ করে কাপড় নির্বাচন করুন।",
+      "length": "অনুগ্রহ করে মিটারে দৈর্ঘ্য লিখুন।",
+      "price": "অনুগ্রহ করে 0-এর বেশি দাম লিখুন।",
+      "stock": "অনুগ্রহ করে 1 বা তার বেশি স্টক লিখুন।",
+      "save": "পণ্য সংরক্ষণ করা যায়নি। আবার চেষ্টা করুন।"
+    }
+  },
+  "category": {
+    "saree": "শাড়ি",
+    "dupatta": "ওড়না",
+    "stole": "স্টোল",
+    "muffler": "মাফলার",
+    "fabric": "কাপড় / থান",
+    "other": "অন্যান্য"
+  },
+  "subcategory": {
+    "cotton_saree": "সুতির শাড়ি",
+    "silk_saree": "সিল্কের শাড়ি",
+    "cotton_silk_saree": "কটন-সিল্ক শাড়ি",
+    "linen_saree": "লিনেন শাড়ি",
+    "tussar_saree": "তসর শাড়ি",
+    "cotton_dupatta": "সুতির ওড়না",
+    "silk_dupatta": "সিল্কের ওড়না",
+    "wool_dupatta": "উলের ওড়না",
+    "cotton_stole": "সুতির স্টোল",
+    "silk_stole": "সিল্কের স্টোল",
+    "wool_stole": "উলের স্টোল",
+    "cotton_muffler": "সুতির মাফলার",
+    "wool_muffler": "উলের মাফলার",
+    "running_fabric": "রানিং ফ্যাব্রিক",
+    "yardage": "থান",
+    "furnishing": "ফার্নিশিং"
+  },
+  "material": {
+    "cotton": "সুতি",
+    "silk": "সিল্ক",
+    "cotton_silk": "কটন-সিল্ক",
+    "linen": "লিনেন",
+    "wool": "উল",
+    "tussar": "তসর",
+    "jute": "পাট",
+    "blend": "মিশ্র",
+    "other": "অন্যান্য"
+  },
+  "pattern": {
+    "plain": "সাদা",
+    "checks": "চেক",
+    "stripes": "ডোরাকাটা",
+    "floral": "ফুলেল",
+    "temple_border": "মন্দির পাড়",
+    "zari_border": "জরি পাড়",
+    "buti": "বুটি",
+    "geometric": "জ্যামিতিক",
+    "ikat": "ইকত",
+    "other": "অন্যান্য"
+  },
+  "color": {
+    "red": "লাল",
+    "maroon": "মেরুন",
+    "pink": "গোলাপি",
+    "orange": "কমলা",
+    "yellow": "হলুদ",
+    "green": "সবুজ",
+    "blue": "নীল",
+    "indigo": "গাঢ় নীল",
+    "purple": "বেগুনি",
+    "black": "কালো",
+    "white": "সাদা",
+    "cream": "ক্রিম",
+    "grey": "ধূসর",
+    "brown": "বাদামি",
+    "gold": "সোনালি",
+    "silver": "রুপালি",
+    "multicolor": "বহুরঙা"
+  },
+  "currency": {
+    "inr": "INR (₹)"
+  },
+  "stock_type": {
+    "ready_stock": "তৈরি স্টক",
+    "made_to_order": "অর্ডার অনুযায়ী তৈরি"
+  },
+  "target_audience": {
+    "women": "মহিলা",
+    "men": "পুরুষ",
+    "unisex": "সবার জন্য",
+    "kids": "শিশু",
+    "home_decor": "ঘর সাজানো",
+    "fabric": "কাপড়"
+  },
+  "usage_context": {
+    "daily_wear": "প্রতিদিনের পরিধান",
+    "festive": "উৎসব",
+    "bridal": "বিয়ে",
+    "office": "অফিস",
+    "export": "রপ্তানি",
+    "other": "অন্যান্য"
+  },
+  "status": {
+    "draft": "খসড়া",
+    "ready": "প্রকাশিত",
+    "archived": "সংরক্ষণাগারে"
+  },
+  "wizard": {
+    "progress": "{{total}}টির মধ্যে {{current}}",
+    "next": "পরবর্তী",
+    "back": "পিছনে",
+    "skip": "এড়িয়ে যান",
+    "takePhoto": "ছবি তুলুন",
+    "gallery": "গ্যালারি থেকে বাছুন",
+    "removePhoto": "ছবি সরান",
+    "photosQuestion": "আপনার পণ্যের ছবি যোগ করুন",
+    "titleQuestion": "এই পণ্যের নাম কী?",
+    "categoryQuestion": "আপনি কী বিক্রি করছেন?",
+    "clusterQuestion": "এটি কোন তাঁত ক্লাস্টারের?",
+    "materialQuestion": "এটি কোন কাপড়ে তৈরি?",
+    "lengthQuestion": "এটি কত লম্বা?",
+    "priceQuestion": "দাম কত?",
+    "stockQuestion": "আপনার কাছে কতগুলি আছে?",
+    "subcategoryQuestion": "ঠিক কী ধরনের?",
+    "primaryColorQuestion": "প্রধান রং কোনটি?",
+    "secondaryColorQuestion": "কোনো দ্বিতীয় রং?",
+    "patternQuestion": "নকশা কেমন?",
+    "widthQuestion": "এটি কত চওড়া?",
+    "weightQuestion": "এর ওজন কত?",
+    "minOrderQuestion": "ন্যূনতম অর্ডার পরিমাণ?",
+    "stockTypeQuestion": "এখনই তৈরি, নাকি অর্ডার অনুযায়ী?",
+    "leadTimeQuestion": "একটি তৈরি করতে কত দিন লাগে?",
+    "maxCapacityQuestion": "এক অর্ডারে সর্বোচ্চ কতটি বানাতে পারবেন?",
+    "isHandloomQuestion": "এটি কি আসল হস্তচালিত তাঁত?",
+    "giTagQuestion": "এর কি GI ট্যাগ আছে?",
+    "certificationQuestion": "কোনো সার্টিফিকেট?",
+    "careQuestion": "ক্রেতা এর যত্ন কীভাবে নেবেন?",
+    "targetAudienceQuestion": "এটি কার জন্য?",
+    "usageContextQuestion": "কখন পরা বা ব্যবহার করা হবে?",
+    "unitMeters": "মিটার",
+    "unitGrams": "গ্রাম",
+    "unitRupees": "₹",
+    "unitDays": "দিন",
+    "unitPieces": "টি",
+    "yes": "হ্যাঁ",
+    "no": "না",
+    "otherQuestion": "নিজের ভাষায় লিখুন",
+    "otherPlaceholder": "এখানে লিখুন",
+    "reviewTitle": "আপনার লিস্টিং দেখে নিন",
+    "reviewSubtitle": "বদলাতে যেকোনো সারিতে ট্যাপ করুন",
+    "photos": "ছবি",
+    "publish": "প্রকাশ করুন",
+    "publishing": "প্রকাশ হচ্ছে...",
+    "addMore": "আরও তথ্য যোগ করুন"
+  }
+}

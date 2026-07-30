@@ -2,7 +2,6 @@ import Link from "next/link";
 import { QrCode, Route } from "lucide-react";
 
 import { DoodleCrosses, DoodleScribble } from "@/components/marketing/doodles";
-import AmbientBackground from "@/components/layout/AmbientBackground";
 import HandloomGuide from "@/components/guide/HandloomGuide";
 
 /**
@@ -26,7 +25,6 @@ export default function AppShell({
 }) {
   return (
     <div className="relative flex min-h-screen flex-col bg-white text-black">
-      <AmbientBackground />
       <header className="sticky top-0 z-50 border-b border-dashed border-neutral-300 bg-white/90 backdrop-blur">
         <div className="mx-auto flex h-16 max-w-6xl items-center justify-between px-6">
           <Link href="/" className="flex items-center gap-2">

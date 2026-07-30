@@ -1,0 +1,68 @@
+{
+  "dashboard": {
+    "welcomeBack": "Welcome back, {{name}}",
+    "welcome": "Welcome to LoomMitra",
+    "subtitle": "Track your RFQs and source authentic handloom products directly from weavers.",
+    "discoverProducts": "Discover Products",
+    "stats": {
+      "rfqsSent": "RFQs Sent",
+      "active": "Active",
+      "inNegotiation": "In Negotiation",
+      "accepted": "Accepted",
+      "totalUnits": "Total Units Requested"
+    },
+    "recentRfqs": {
+      "title": "Recent RFQs",
+      "description": "Your latest bulk order requests",
+      "viewAll": "View all",
+      "empty": "No RFQs sent yet.",
+      "browse": "Browse products to get started",
+      "qty": "Qty: {{count}}",
+      "unknownProduct": "Unknown Product"
+    },
+    "quickActions": {
+      "title": "Quick Actions",
+      "description": "Shortcuts to common tasks",
+      "viewAllRfqs": "View All RFQs",
+      "verifyProduct": "Verify a Product",
+      "completeProfile": "Complete Business Profile"
+    }
+  },
+  "orders": {
+    "title": "Bulk Order Requests",
+    "subtitle": "Track your RFQs, review weaver quotes, and negotiate final pricing.",
+    "actionRequired": "Action Required ({{count}})",
+    "noQuotes": "No quotes require your review right now.",
+    "unknownWeaver": "Unknown Weaver",
+    "weaverLabel": "Weaver:",
+    "quoteForUnits": "Weaver's Quote for {{count}} units",
+    "perUnit": "/ unit",
+    "totalAmount": "Total: ₹{{amount}}",
+    "quoteReceived": "Quote Received",
+    "counterPrice": "Counter Bargain Price",
+    "counterPlaceholder": "e.g. 1400",
+    "bargain": "Bargain",
+    "acceptQuote": "Accept Quote",
+    "history": "History & Pending",
+    "qty": "Qty:",
+    "pricePerUnit": "₹{{price}} / unit",
+    "offer": "Offer: ₹{{price}}",
+    "quote": "Quote: ₹{{price}}",
+    "waitingForQuote": "Waiting for quote",
+    "productImageAlt": "Product",
+    "errors": {
+      "invalidBargainPrice": "Please enter a valid bargain price.",
+      "negotiateFailed": "Failed to negotiate order"
+    }
+  },
+  "profile": {
+    "title": "Business Profile",
+    "businessName": "Business Name",
+    "contactEmail": "Contact Email",
+    "contactPhone": "Contact Phone",
+    "gstNumber": "GST Number (optional)",
+    "save": "Save Profile",
+    "saving": "Saving…",
+    "saveFailed": "Failed to save profile"
+  }
+}

@@ -2,7 +2,6 @@ import Link from "next/link";
 import { QrCode } from "lucide-react";
 
 import { Button } from "@/components/ui/button";
-import AmbientBackground from "@/components/layout/AmbientBackground";
 
 function Header() {
   return (
@@ -61,7 +60,6 @@ export default function MainLayout({
 }) {
   return (
     <div className="relative flex min-h-screen flex-col bg-white text-black">
-      <AmbientBackground />
       <Header />
       <main className="relative z-10 flex-1">{children}</main>
       <div className="relative z-10 bg-white/70 backdrop-blur-sm">

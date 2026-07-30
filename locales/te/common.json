@@ -1,0 +1,84 @@
+{
+  "appName": "LoomMitra",
+  "language": {
+    "label": "భాష"
+  },
+  "actions": {
+    "save": "సేవ్ చేయి",
+    "cancel": "రద్దు",
+    "delete": "తొలగించు",
+    "edit": "మార్చు",
+    "add": "జోడించు",
+    "back": "వెనుకకు",
+    "next": "తర్వాత",
+    "close": "మూసివేయి",
+    "confirm": "నిర్ధారించు",
+    "view": "చూడు",
+    "search": "వెతుకు",
+    "retry": "మళ్లీ ప్రయత్నించు",
+    "accept": "అంగీకరించు",
+    "reject": "తిరస్కరించు",
+    "send": "పంపు",
+    "remove": "తీసివేయి",
+    "update": "మార్చు",
+    "loading": "లోడ్ అవుతోంది…",
+    "submitting": "వేచి ఉండండి…"
+  },
+  "fields": {
+    "price": "ధర",
+    "stock": "స్టాక్",
+    "quantity": "సంఖ్య",
+    "total": "మొత్తం",
+    "status": "స్థితి",
+    "date": "తేదీ",
+    "name": "పేరు",
+    "email": "ఇమెయిల్",
+    "phone": "ఫోన్",
+    "city": "నగరం",
+    "address": "చిరునామా",
+    "pincode": "పిన్ కోడ్",
+    "description": "వివరణ",
+    "material": "నూలు రకం",
+    "location": "ప్రాంతం",
+    "type": "రకం",
+    "design": "డిజైన్"
+  },
+  "productTypes": {
+    "SAREE": "చీర",
+    "MUFFLER": "మఫ్లర్",
+    "DUPATTA": "దుపట్టా",
+    "STOLE": "స్టోల్",
+    "FABRIC": "వస్త్రం",
+    "OTHER": "ఇతర"
+  },
+  "productStatus": {
+    "DRAFT": "డ్రాఫ్ట్",
+    "READY": "సిద్ధం"
+  },
+  "orderStatus": {
+    "PENDING": "పెండింగ్",
+    "WEAVER_RESPONDED": "నేతగాడి జవాబు వచ్చింది",
+    "BARGAINING": "బేరం జరుగుతోంది",
+    "ACCEPTED": "అంగీకరించారు",
+    "REJECTED": "తిరస్కరించారు",
+    "PLACED": "ఆర్డర్ వచ్చింది",
+    "READY": "సిద్ధం",
+    "SHIPPED": "పంపబడింది",
+    "DELIVERED": "చేరింది"
+  },
+  "roles": {
+    "WEAVER": "నేత కార్మికుడు",
+    "BUSINESS": "వ్యాపారి",
+    "CUSTOMER": "కస్టమర్"
+  },
+  "empty": {
+    "noProducts": "ఇంకా ఉత్పత్తులు లేవు",
+    "noOrders": "ఇంకా ఆర్డర్లు లేవు",
+    "noResults": "ఏమీ దొరకలేదు"
+  },
+  "errors": {
+    "generic": "ఏదో తప్పు జరిగింది",
+    "tryAgain": "మళ్లీ ప్రయత్నించండి",
+    "required": "ఇది అవసరం"
+  }
+}

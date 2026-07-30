@@ -1,0 +1,318 @@
+{
+  "backToMarketplace": "మార్కెట్‌కు తిరిగి వెళ్ళండి",
+  "noImages": "ఫోటోలు ఏవీ లేవు.",
+  "galleryThumbAlt": "గ్యాలరీ చిన్న ఫోటో",
+  "catalogPhotos": "కేటలాగ్ ఫోటోలు",
+  "rawImages": "అసలు ఫోటోలు",
+  "catalogPendingLine1": "నేత కార్మికుడి కేటలాగ్ ఫోటోలు ఇంకా తయారవుతున్నాయి.",
+  "catalogPendingLine2": "అప్‌లోడ్ చేసిన ఫోటోల కోసం \"అసలు ఫోటోలు\" ట్యాబ్ చూడండి.",
+  "readyToShip": "పంపడానికి సిద్ధం",
+  "defaultLocation": "భారతదేశం",
+  "perUnit": "ఒక్కదానికి",
+  "descriptionHeading": "వివరణ",
+  "designMotif": "డిజైన్ / మోటిఫ్",
+  "availableStock": "అందుబాటులో ఉన్న స్టాక్",
+  "stockUnits": "{{count}} వస్తువులు",
+  "verifiedWeaver": "ధృవీకరించబడిన నేత కార్మికుడు",
+  "unknownWeaver": "తెలియని నేత కార్మికుడు",
+  "cluster": {
+    "chanderi": "చందేరి",
+    "maheshwari": "మహేశ్వరి",
+    "kanchipuram": "కాంచీపురం",
+    "banarasi": "బనారసి",
+    "pochampally": "పోచంపల్లి",
+    "bhagalpur": "భాగల్‌పూర్",
+    "kullu": "కులు",
+    "kota_doria": "కోటా డోరియా",
+    "sambalpuri": "సంబల్‌పురి",
+    "venkatagiri": "వెంకటగిరి",
+    "uppada": "ఉప్పాడ",
+    "jamdani": "జామ్దానీ",
+    "ilkal": "ఇల్కల్",
+    "mangalagiri": "మంగళగిరి",
+    "bomkai": "బోమ్‌కాయ్",
+    "patan_patola": "పటాన్ పటోలా",
+    "muga_assam": "మూగా (అస్సాం)",
+    "other": "ఇతర"
+  },
+  "govVerified": "ప్రభుత్వంచే ధృవీకరించబడింది",
+  "rfq": {
+    "title": "బల్క్ ఆర్డర్ అభ్యర్థన (RFQ)",
+    "description": "నేత కార్మికుడితో నేరుగా బల్క్ ధరపై బేరం చేయడానికి అభ్యర్థన పంపండి.",
+    "quantityLabel": "కావలసిన పరిమాణం",
+    "quantityPlaceholder": "ఉదా. 50",
+    "invalidQuantity": "0 కంటే ఎక్కువ సరైన పరిమాణాన్ని నమోదు చేయండి.",
+    "submitFailed": "అభ్యర్థన పంపడం సాధ్యపడలేదు.",
+    "success": "అభ్యర్థన పంపబడింది! నేత కార్మికుడి ధరల కోసం మీ డాష్‌బోర్డ్ చూడండి.",
+    "send": "నేత కార్మికుడికి అభ్యర్థన పంపండి",
+    "sending": "అభ్యర్థన పంపుతోంది..."
+  },
+  "addToCart": "కార్ట్‌లో వేయండి",
+  "buyNow": "ఇప్పుడే కొనండి",
+  "form": {
+    "basicStep": "ప్రాథమిక సమాచారం",
+    "basicStepDesc": "తప్పనిసరి. డ్రాఫ్ట్ సేవ్ చేయడానికి సరిపోతుంది.",
+    "advancedStep": "మరిన్ని వివరాలు",
+    "advancedStepDesc": "ఐచ్ఛికం. కొనుగోలుదారులు మిమ్మల్ని కనుగొనడానికి సహాయపడుతుంది.",
+    "showAdvanced": "మరిన్ని వివరాలు జోడించండి",
+    "hideAdvanced": "అదనపు వివరాలు దాచండి",
+    "optional": "(ఐచ్ఛికం)",
+    "select": "ఎంచుకోండి",
+    "saveDraft": "డ్రాఫ్ట్ సేవ్ చేయండి",
+    "saving": "సేవ్ అవుతోంది...",
+    "cancel": "రద్దు",
+    "title": {
+      "label": "పేరు",
+      "placeholder": "ఉదా. చందేరి పట్టు చీర"
+    },
+    "description": {
+      "label": "చిన్న వివరణ",
+      "placeholder": "ఈ ఉత్పత్తి గురించి ఒకటి రెండు వాక్యాలు"
+    },
+    "category": {
+      "label": "వర్గం"
+    },
+    "subcategory": {
+      "label": "ఉప వర్గం"
+    },
+    "cluster": {
+      "label": "క్లస్టర్"
+    },
+    "material": {
+      "label": "వస్త్రం"
+    },
+    "pattern": {
+      "label": "డిజైన్"
+    },
+    "primaryColor": {
+      "label": "ప్రధాన రంగు"
+    },
+    "secondaryColor": {
+      "label": "రెండవ రంగు"
+    },
+    "length": {
+      "label": "పొడవు (మీ)",
+      "placeholder": "ఉదా. 5.5"
+    },
+    "width": {
+      "label": "వెడల్పు (మీ)",
+      "placeholder": "ఉదా. 1.2"
+    },
+    "weight": {
+      "label": "బరువు (గ్రా)",
+      "placeholder": "ఉదా. 450"
+    },
+    "basePrice": {
+      "label": "బేస్ ధర",
+      "placeholder": "ఉదా. 2000"
+    },
+    "price": {
+      "label": "ధర",
+      "placeholder": "ఉదా. 2500"
+    },
+    "currency": {
+      "label": "కరెన్సీ"
+    },
+    "stock": {
+      "label": "స్టాక్",
+      "placeholder": "ఉదా. 10"
+    },
+    "minOrderQuantity": {
+      "label": "కనీస ఆర్డర్ పరిమాణం",
+      "placeholder": "ఉదా. 1"
+    },
+    "isAvailable": {
+      "label": "అమ్మకానికి అందుబాటులో ఉంది"
+    },
+    "stockType": {
+      "label": "స్టాక్ రకం"
+    },
+    "leadTime": {
+      "label": "తయారీ సమయం (రోజులు)",
+      "placeholder": "ఉదా. 15"
+    },
+    "maxOrderCapacity": {
+      "label": "గరిష్ఠ సామర్థ్యం",
+      "placeholder": "ఉదా. 50"
+    },
+    "isHandloom": {
+      "label": "అసలైన చేనేత"
+    },
+    "giTag": {
+      "label": "GI ట్యాగ్",
+      "placeholder": "ఉదా. చందేరి ఫ్యాబ్రిక్"
+    },
+    "certification": {
+      "label": "సర్టిఫికెట్",
+      "placeholder": "సర్టిఫికెట్ పేరు లేదా నంబరు"
+    },
+    "care": {
+      "label": "సంరక్షణ",
+      "placeholder": "ఉదా. డ్రై క్లీన్ మాత్రమే"
+    },
+    "targetAudience": {
+      "label": "ఎవరికోసం"
+    },
+    "usageContext": {
+      "label": "సందర్భం"
+    },
+    "images": {
+      "label": "ఫోటోలు",
+      "hint": "కనీసం 1 ఫోటో జోడించండి. సేవ్ చేసిన తర్వాత కూడా అప్‌లోడ్ చేయవచ్చు."
+    },
+    "errors": {
+      "title": "దయచేసి పేరు నమోదు చేయండి.",
+      "category": "దయచేసి వర్గాన్ని ఎంచుకోండి.",
+      "cluster": "దయచేసి క్లస్టర్‌ను ఎంచుకోండి.",
+      "material": "దయచేసి వస్త్రాన్ని ఎంచుకోండి.",
+      "length": "దయచేసి పొడవును మీటర్లలో నమోదు చేయండి.",
+      "price": "దయచేసి 0 కంటే ఎక్కువ ధర నమోదు చేయండి.",
+      "stock": "దయచేసి 1 లేదా అంతకంటే ఎక్కువ స్టాక్ నమోదు చేయండి.",
+      "save": "ఉత్పత్తిని సేవ్ చేయలేకపోయాం. మళ్లీ ప్రయత్నించండి."
+    }
+  },
+  "category": {
+    "saree": "చీర",
+    "dupatta": "దుపట్టా",
+    "stole": "స్టోల్",
+    "muffler": "మఫ్లర్",
+    "fabric": "వస్త్రం / గజాలు",
+    "other": "ఇతర"
+  },
+  "subcategory": {
+    "cotton_saree": "కాటన్ చీర",
+    "silk_saree": "పట్టు చీర",
+    "cotton_silk_saree": "కాటన్-సిల్క్ చీర",
+    "linen_saree": "లినెన్ చీర",
+    "tussar_saree": "టస్సర్ చీర",
+    "cotton_dupatta": "కాటన్ దుపట్టా",
+    "silk_dupatta": "పట్టు దుపట్టా",
+    "wool_dupatta": "ఉన్ని దుపట్టా",
+    "cotton_stole": "కాటన్ స్టోల్",
+    "silk_stole": "పట్టు స్టోల్",
+    "wool_stole": "ఉన్ని స్టోల్",
+    "cotton_muffler": "కాటన్ మఫ్లర్",
+    "wool_muffler": "ఉన్ని మఫ్లర్",
+    "running_fabric": "రన్నింగ్ ఫ్యాబ్రిక్",
+    "yardage": "గజాలు",
+    "furnishing": "ఫర్నిషింగ్"
+  },
+  "material": {
+    "cotton": "కాటన్",
+    "silk": "పట్టు",
+    "cotton_silk": "కాటన్-సిల్క్",
+    "linen": "లినెన్",
+    "wool": "ఉన్ని",
+    "tussar": "టస్సర్",
+    "jute": "జనపనార",
+    "blend": "మిశ్రమం",
+    "other": "ఇతర"
+  },
+  "pattern": {
+    "plain": "సాదా",
+    "checks": "చెక్స్",
+    "stripes": "చారలు",
+    "floral": "పూల డిజైన్",
+    "temple_border": "గుడి అంచు",
+    "zari_border": "జరీ అంచు",
+    "buti": "బుటా",
+    "geometric": "జ్యామితీయ",
+    "ikat": "ఇకత్",
+    "other": "ఇతర"
+  },
+  "color": {
+    "red": "ఎరుపు",
+    "maroon": "మెరూన్",
+    "pink": "గులాబీ",
+    "orange": "నారింజ",
+    "yellow": "పసుపు",
+    "green": "ఆకుపచ్చ",
+    "blue": "నీలం",
+    "indigo": "ముదురు నీలం",
+    "purple": "ఊదా",
+    "black": "నలుపు",
+    "white": "తెలుపు",
+    "cream": "క్రీమ్",
+    "grey": "బూడిద",
+    "brown": "గోధుమ",
+    "gold": "బంగారు",
+    "silver": "వెండి",
+    "multicolor": "బహువర్ణ"
+  },
+  "currency": {
+    "inr": "INR (₹)"
+  },
+  "stock_type": {
+    "ready_stock": "సిద్ధంగా ఉన్న స్టాక్",
+    "made_to_order": "ఆర్డర్ మీద తయారీ"
+  },
+  "target_audience": {
+    "women": "మహిళలు",
+    "men": "పురుషులు",
+    "unisex": "అందరికీ",
+    "kids": "పిల్లలు",
+    "home_decor": "గృహాలంకరణ",
+    "fabric": "వస్త్రం"
+  },
+  "usage_context": {
+    "daily_wear": "రోజువారీ దుస్తులు",
+    "festive": "పండుగ",
+    "bridal": "పెళ్లి",
+    "office": "ఆఫీసు",
+    "export": "ఎగుమతి",
+    "other": "ఇతర"
+  },
+  "status": {
+    "draft": "డ్రాఫ్ట్",
+    "ready": "ప్రచురించబడింది",
+    "archived": "ఆర్కైవ్"
+  },
+  "wizard": {
+    "progress": "{{total}}లో {{current}}",
+    "next": "తర్వాత",
+    "back": "వెనుకకు",
+    "skip": "దాటవేయి",
+    "takePhoto": "ఫోటో తీయండి",
+    "gallery": "గ్యాలరీ నుండి ఎంచుకోండి",
+    "removePhoto": "ఫోటో తీసివేయండి",
+    "photosQuestion": "మీ ఉత్పత్తి ఫోటోలు జోడించండి",
+    "titleQuestion": "ఈ ఉత్పత్తి పేరు ఏమిటి?",
+    "categoryQuestion": "మీరు ఏమి అమ్ముతున్నారు?",
+    "clusterQuestion": "ఇది ఏ నేత క్లస్టర్‌కు చెందినది?",
+    "materialQuestion": "ఇది ఏ వస్త్రంతో తయారైంది?",
+    "lengthQuestion": "ఇది ఎంత పొడవు?",
+    "priceQuestion": "ధర ఎంత?",
+    "stockQuestion": "మీ దగ్గర ఎన్ని ఉన్నాయి?",
+    "subcategoryQuestion": "సరిగ్గా ఏ రకం?",
+    "primaryColorQuestion": "ప్రధాన రంగు ఏది?",
+    "secondaryColorQuestion": "రెండవ రంగు ఏదైనా ఉందా?",
+    "patternQuestion": "డిజైన్ ఎలా ఉంది?",
+    "widthQuestion": "ఇది ఎంత వెడల్పు?",
+    "weightQuestion": "దీని బరువు ఎంత?",
+    "minOrderQuestion": "కనీస ఆర్డర్ పరిమాణం?",
+    "stockTypeQuestion": "ఇప్పుడే సిద్ధంగా ఉందా, లేక ఆర్డర్ మీద తయారవుతుందా?",
+    "leadTimeQuestion": "ఒకటి తయారు చేయడానికి ఎన్ని రోజులు పడుతుంది?",
+    "maxCapacityQuestion": "ఒక ఆర్డర్‌కు గరిష్ఠంగా ఎన్ని చేయగలరు?",
+    "isHandloomQuestion": "ఇది అసలైన చేనేతా?",
+    "giTagQuestion": "దీనికి GI ట్యాగ్ ఉందా?",
+    "certificationQuestion": "ఏదైనా సర్టిఫికెట్?",
+    "careQuestion": "కొనుగోలుదారు దీన్ని ఎలా సంరక్షించాలి?",
+    "targetAudienceQuestion": "ఇది ఎవరి కోసం?",
+    "usageContextQuestion": "దీన్ని ఎప్పుడు ధరిస్తారు లేదా వాడతారు?",
+    "unitMeters": "మీటర్లు",
+    "unitGrams": "గ్రాములు",
+    "unitRupees": "₹",
+    "unitDays": "రోజులు",
+    "unitPieces": "ముక్కలు",
+    "yes": "అవును",
+    "no": "కాదు",
+    "otherQuestion": "మీ మాటల్లో రాయండి",
+    "otherPlaceholder": "ఇక్కడ రాయండి",
+    "reviewTitle": "మీ లిస్టింగ్ సరిచూసుకోండి",
+    "reviewSubtitle": "మార్చడానికి ఏ వరుసనైనా నొక్కండి",
+    "photos": "ఫోటోలు",
+    "publish": "ప్రచురించండి",
+    "publishing": "ప్రచురిస్తోంది...",
+    "addMore": "మరిన్ని వివరాలు జోడించండి"
+  }
+}

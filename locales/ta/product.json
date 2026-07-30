@@ -1,0 +1,318 @@
+{
+  "backToMarketplace": "சந்தைக்கு திரும்ப",
+  "noImages": "படங்கள் எதுவும் இல்லை.",
+  "galleryThumbAlt": "கேலரி சிறு படம்",
+  "catalogPhotos": "கேட்டலாக் படங்கள்",
+  "rawImages": "மூல படங்கள்",
+  "catalogPendingLine1": "நெசவாளரின் கேட்டலாக் படங்கள் இன்னும் தயாராகிக்கொண்டிருக்கின்றன.",
+  "catalogPendingLine2": "பதிவேற்றிய படங்களுக்கு \"மூல படங்கள்\" தாவலை பாருங்கள்.",
+  "readyToShip": "அனுப்ப தயார்",
+  "defaultLocation": "இந்தியா",
+  "perUnit": "ஒன்றுக்கு",
+  "descriptionHeading": "விவரம்",
+  "designMotif": "டிசைன் / மோட்டிஃப்",
+  "availableStock": "கிடைக்கும் இருப்பு",
+  "stockUnits": "{{count}} பொருட்கள்",
+  "verifiedWeaver": "சரிபார்க்கப்பட்ட நெசவாளர்",
+  "unknownWeaver": "தெரியாத நெசவாளர்",
+  "cluster": {
+    "chanderi": "சந்தேரி",
+    "maheshwari": "மகேஷ்வரி",
+    "kanchipuram": "காஞ்சிபுரம்",
+    "banarasi": "பனாரசி",
+    "pochampally": "பொச்சம்பள்ளி",
+    "bhagalpur": "பாகல்பூர்",
+    "kullu": "குலு",
+    "kota_doria": "கோட்டா டோரியா",
+    "sambalpuri": "சம்பல்புரி",
+    "venkatagiri": "வெங்கடகிரி",
+    "uppada": "உப்பாடா",
+    "jamdani": "ஜாம்தானி",
+    "ilkal": "இல்கல்",
+    "mangalagiri": "மங்களகிரி",
+    "bomkai": "போம்காய்",
+    "patan_patola": "படான் படோலா",
+    "muga_assam": "மூகா (அசாம்)",
+    "other": "மற்றவை"
+  },
+  "govVerified": "அரசால் சரிபார்க்கப்பட்டது",
+  "rfq": {
+    "title": "மொத்த ஆர்டர் கோரிக்கை (RFQ)",
+    "description": "நெசவாளருடன் நேரடியாக மொத்த விலையில் பேரம் பேச கோரிக்கை அனுப்புங்கள்.",
+    "quantityLabel": "தேவையான அளவு",
+    "quantityPlaceholder": "எ.கா. 50",
+    "invalidQuantity": "0-க்கு மேல் சரியான அளவை உள்ளிடுங்கள்.",
+    "submitFailed": "கோரிக்கையை அனுப்ப முடியவில்லை.",
+    "success": "கோரிக்கை அனுப்பப்பட்டது! நெசவாளர் விலைக்கு உங்கள் டாஷ்போர்டை பாருங்கள்.",
+    "send": "நெசவாளருக்கு கோரிக்கை அனுப்ப",
+    "sending": "கோரிக்கை அனுப்பப்படுகிறது..."
+  },
+  "addToCart": "கார்ட்டில் சேர்க்க",
+  "buyNow": "இப்போதே வாங்க",
+  "form": {
+    "basicStep": "அடிப்படை தகவல்",
+    "basicStepDesc": "அவசியம். வரைவு சேமிக்க இது போதும்.",
+    "advancedStep": "மேலும் விவரங்கள்",
+    "advancedStepDesc": "விருப்பத்தேர்வு. வாங்குபவர்கள் உங்களை கண்டறிய உதவும்.",
+    "showAdvanced": "மேலும் விவரங்களை சேர்க்கவும்",
+    "hideAdvanced": "கூடுதல் விவரங்களை மறைக்கவும்",
+    "optional": "(விருப்பம்)",
+    "select": "தேர்வு",
+    "saveDraft": "வரைவை சேமிக்கவும்",
+    "saving": "சேமிக்கிறது...",
+    "cancel": "ரத்து",
+    "title": {
+      "label": "பெயர்",
+      "placeholder": "எ.கா. சந்தேரி பட்டு சேலை"
+    },
+    "description": {
+      "label": "சிறு விளக்கம்",
+      "placeholder": "இந்த பொருள் பற்றி ஓரிரு வரிகள்"
+    },
+    "category": {
+      "label": "வகை"
+    },
+    "subcategory": {
+      "label": "துணை வகை"
+    },
+    "cluster": {
+      "label": "கிளஸ்டர்"
+    },
+    "material": {
+      "label": "துணி"
+    },
+    "pattern": {
+      "label": "வடிவமைப்பு"
+    },
+    "primaryColor": {
+      "label": "முதன்மை நிறம்"
+    },
+    "secondaryColor": {
+      "label": "இரண்டாம் நிறம்"
+    },
+    "length": {
+      "label": "நீளம் (மீ)",
+      "placeholder": "எ.கா. 5.5"
+    },
+    "width": {
+      "label": "அகலம் (மீ)",
+      "placeholder": "எ.கா. 1.2"
+    },
+    "weight": {
+      "label": "எடை (கிராம்)",
+      "placeholder": "எ.கா. 450"
+    },
+    "basePrice": {
+      "label": "அடிப்படை விலை",
+      "placeholder": "எ.கா. 2000"
+    },
+    "price": {
+      "label": "விலை",
+      "placeholder": "எ.கா. 2500"
+    },
+    "currency": {
+      "label": "நாணயம்"
+    },
+    "stock": {
+      "label": "இருப்பு",
+      "placeholder": "எ.கா. 10"
+    },
+    "minOrderQuantity": {
+      "label": "குறைந்தபட்ச ஆர்டர் அளவு",
+      "placeholder": "எ.கா. 1"
+    },
+    "isAvailable": {
+      "label": "விற்பனைக்கு கிடைக்கிறது"
+    },
+    "stockType": {
+      "label": "இருப்பு வகை"
+    },
+    "leadTime": {
+      "label": "தயாரிப்பு நேரம் (நாட்கள்)",
+      "placeholder": "எ.கா. 15"
+    },
+    "maxOrderCapacity": {
+      "label": "அதிகபட்ச திறன்",
+      "placeholder": "எ.கா. 50"
+    },
+    "isHandloom": {
+      "label": "உண்மையான கைத்தறி"
+    },
+    "giTag": {
+      "label": "GI குறி",
+      "placeholder": "எ.கா. சந்தேரி துணி"
+    },
+    "certification": {
+      "label": "சான்றிதழ்",
+      "placeholder": "சான்றிதழ் பெயர் அல்லது எண்"
+    },
+    "care": {
+      "label": "பராமரிப்பு",
+      "placeholder": "எ.கா. டிரை கிளீன் மட்டும்"
+    },
+    "targetAudience": {
+      "label": "யாருக்காக"
+    },
+    "usageContext": {
+      "label": "சந்தர்ப்பம்"
+    },
+    "images": {
+      "label": "புகைப்படங்கள்",
+      "hint": "குறைந்தது 1 புகைப்படம் சேர்க்கவும். சேமித்த பின்னும் பதிவேற்றலாம்."
+    },
+    "errors": {
+      "title": "தயவுசெய்து பெயரை உள்ளிடவும்.",
+      "category": "தயவுசெய்து வகையை தேர்ந்தெடுக்கவும்.",
+      "cluster": "தயவுசெய்து கிளஸ்டரை தேர்ந்தெடுக்கவும்.",
+      "material": "தயவுசெய்து துணியை தேர்ந்தெடுக்கவும்.",
+      "length": "தயவுசெய்து நீளத்தை மீட்டரில் உள்ளிடவும்.",
+      "price": "தயவுசெய்து 0-க்கு மேல் விலை உள்ளிடவும்.",
+      "stock": "தயவுசெய்து 1 அல்லது அதற்கு மேல் இருப்பு உள்ளிடவும்.",
+      "save": "பொருளை சேமிக்க முடியவில்லை. மீண்டும் முயற்சிக்கவும்."
+    }
+  },
+  "category": {
+    "saree": "சேலை",
+    "dupatta": "துப்பட்டா",
+    "stole": "ஸ்டோல்",
+    "muffler": "மஃப்ளர்",
+    "fabric": "துணி / யார்டேஜ்",
+    "other": "மற்றவை"
+  },
+  "subcategory": {
+    "cotton_saree": "பருத்தி சேலை",
+    "silk_saree": "பட்டு சேலை",
+    "cotton_silk_saree": "பருத்தி-பட்டு சேலை",
+    "linen_saree": "லினன் சேலை",
+    "tussar_saree": "டசர் சேலை",
+    "cotton_dupatta": "பருத்தி துப்பட்டா",
+    "silk_dupatta": "பட்டு துப்பட்டா",
+    "wool_dupatta": "கம்பளி துப்பட்டா",
+    "cotton_stole": "பருத்தி ஸ்டோல்",
+    "silk_stole": "பட்டு ஸ்டோல்",
+    "wool_stole": "கம்பளி ஸ்டோல்",
+    "cotton_muffler": "பருத்தி மஃப்ளர்",
+    "wool_muffler": "கம்பளி மஃப்ளர்",
+    "running_fabric": "ரன்னிங் துணி",
+    "yardage": "யார்டேஜ்",
+    "furnishing": "அலங்கார துணி"
+  },
+  "material": {
+    "cotton": "பருத்தி",
+    "silk": "பட்டு",
+    "cotton_silk": "பருத்தி-பட்டு",
+    "linen": "லினன்",
+    "wool": "கம்பளி",
+    "tussar": "டசர்",
+    "jute": "சணல்",
+    "blend": "கலப்பு",
+    "other": "மற்றவை"
+  },
+  "pattern": {
+    "plain": "சாதா",
+    "checks": "கட்டம்",
+    "stripes": "கோடுகள்",
+    "floral": "மலர்",
+    "temple_border": "கோயில் பார்டர்",
+    "zari_border": "ஜரி பார்டர்",
+    "buti": "புட்டா",
+    "geometric": "வடிவியல்",
+    "ikat": "இகத்",
+    "other": "மற்றவை"
+  },
+  "color": {
+    "red": "சிவப்பு",
+    "maroon": "மரூன்",
+    "pink": "இளஞ்சிவப்பு",
+    "orange": "ஆரஞ்சு",
+    "yellow": "மஞ்சள்",
+    "green": "பச்சை",
+    "blue": "நீலம்",
+    "indigo": "கரு நீலம்",
+    "purple": "ஊதா",
+    "black": "கருப்பு",
+    "white": "வெள்ளை",
+    "cream": "க்ரீம்",
+    "grey": "சாம்பல்",
+    "brown": "பழுப்பு",
+    "gold": "தங்கம்",
+    "silver": "வெள்ளி",
+    "multicolor": "பல வண்ணம்"
+  },
+  "currency": {
+    "inr": "INR (₹)"
+  },
+  "stock_type": {
+    "ready_stock": "தயார் இருப்பு",
+    "made_to_order": "ஆர்டர் படி தயாரிப்பு"
+  },
+  "target_audience": {
+    "women": "பெண்கள்",
+    "men": "ஆண்கள்",
+    "unisex": "அனைவருக்கும்",
+    "kids": "குழந்தைகள்",
+    "home_decor": "வீட்டு அலங்காரம்",
+    "fabric": "துணி"
+  },
+  "usage_context": {
+    "daily_wear": "தினசரி உடை",
+    "festive": "பண்டிகை",
+    "bridal": "திருமணம்",
+    "office": "அலுவலகம்",
+    "export": "ஏற்றுமதி",
+    "other": "மற்றவை"
+  },
+  "status": {
+    "draft": "வரைவு",
+    "ready": "வெளியிடப்பட்டது",
+    "archived": "காப்பகம்"
+  },
+  "wizard": {
+    "progress": "{{total}}-இல் {{current}}",
+    "next": "அடுத்து",
+    "back": "பின்",
+    "skip": "தவிர்",
+    "takePhoto": "புகைப்படம் எடு",
+    "gallery": "கேலரியில் இருந்து தேர்வு",
+    "removePhoto": "புகைப்படத்தை நீக்கு",
+    "photosQuestion": "உங்கள் பொருளின் புகைப்படங்களை சேர்க்கவும்",
+    "titleQuestion": "இந்த பொருளின் பெயர் என்ன?",
+    "categoryQuestion": "நீங்கள் என்ன விற்கிறீர்கள்?",
+    "clusterQuestion": "இது எந்த நெசவு கிளஸ்டரை சேர்ந்தது?",
+    "materialQuestion": "இது எந்த துணியில் செய்யப்பட்டது?",
+    "lengthQuestion": "இதன் நீளம் எவ்வளவு?",
+    "priceQuestion": "விலை என்ன?",
+    "stockQuestion": "உங்களிடம் எத்தனை உள்ளன?",
+    "subcategoryQuestion": "சரியாக எந்த வகை?",
+    "primaryColorQuestion": "முதன்மை நிறம் எது?",
+    "secondaryColorQuestion": "இரண்டாவது நிறம் உண்டா?",
+    "patternQuestion": "வடிவமைப்பு என்ன?",
+    "widthQuestion": "இதன் அகலம் எவ்வளவு?",
+    "weightQuestion": "இதன் எடை எவ்வளவு?",
+    "minOrderQuestion": "குறைந்தபட்ச ஆர்டர் அளவு?",
+    "stockTypeQuestion": "இப்போதே தயாரா, அல்லது ஆர்டர் படி தயாரிப்பா?",
+    "leadTimeQuestion": "ஒன்று செய்ய எத்தனை நாட்கள் ஆகும்?",
+    "maxCapacityQuestion": "ஒரு ஆர்டருக்கு அதிகபட்சம் எத்தனை செய்ய முடியும்?",
+    "isHandloomQuestion": "இது உண்மையான கைத்தறியா?",
+    "giTagQuestion": "இதற்கு GI குறி உள்ளதா?",
+    "certificationQuestion": "ஏதேனும் சான்றிதழ்?",
+    "careQuestion": "வாங்குபவர் இதை எப்படி பராமரிக்க வேண்டும்?",
+    "targetAudienceQuestion": "இது யாருக்காக?",
+    "usageContextQuestion": "இதை எப்போது அணிவார்கள் அல்லது பயன்படுத்துவார்கள்?",
+    "unitMeters": "மீட்டர்",
+    "unitGrams": "கிராம்",
+    "unitRupees": "₹",
+    "unitDays": "நாட்கள்",
+    "unitPieces": "எண்ணிக்கை",
+    "yes": "ஆம்",
+    "no": "இல்லை",
+    "otherQuestion": "உங்கள் சொந்த வார்த்தைகளில் எழுதவும்",
+    "otherPlaceholder": "இங்கே எழுதவும்",
+    "reviewTitle": "உங்கள் பட்டியலை சரிபார்க்கவும்",
+    "reviewSubtitle": "மாற்ற எந்த வரிசையையும் தட்டவும்",
+    "photos": "புகைப்படங்கள்",
+    "publish": "வெளியிடு",
+    "publishing": "வெளியிடப்படுகிறது...",
+    "addMore": "மேலும் விவரங்களை சேர்க்கவும்"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "dashboard": "డాష్‌బోర్డ్",
+  "products": "ఉత్పత్తులు",
+  "bulkOrders": "బల్క్ ఆర్డర్లు / RFQ",
+  "customerOrders": "కస్టమర్ ఆర్డర్లు",
+  "profileVerification": "ప్రొఫైల్ & ధృవీకరణ",
+  "discoverCatalog": "కేటలాగ్ చూడండి",
+  "verifyProduct": "ఉత్పత్తి తనిఖీ",
+  "discover": "వెతుకు",
+  "cart": "కార్ట్",
+  "myOrders": "నా ఆర్డర్లు",
+  "profile": "ప్రొఫైల్",
+  "signOut": "సైన్ అవుట్",
+  "collapse": "కుదించు",
+  "openMenu": "మెనూ తెరువు",
+  "roleDashboard": "{{role}} డాష్‌బోర్డ్",
+  "home": "హోమ్",
+  "auctionHouse": "వేలం కేంద్రం"
+}

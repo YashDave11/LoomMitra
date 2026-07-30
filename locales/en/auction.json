@@ -1,0 +1,91 @@
+{
+  "nav": {
+    "auctionHouse": "Auction House"
+  },
+  "status": {
+    "DRAFT": "Draft",
+    "UPCOMING": "Upcoming",
+    "LIVE": "Live",
+    "ENDED": "Ended",
+    "CANCELLED": "Cancelled"
+  },
+  "result": {
+    "WON": "Sold",
+    "NO_SALE": "Not sold"
+  },
+  "list": {
+    "badge": "Auction House",
+    "title": "Live & Upcoming Auctions",
+    "subtitle": "Bid on special, one-of-a-kind handloom pieces directly from weavers.",
+    "empty": "No auctions right now. Check back soon.",
+    "basePrice": "Base price",
+    "highestBid": "Highest bid",
+    "noBids": "No bids yet",
+    "startsAt": "Starts",
+    "endsAt": "Ends",
+    "view": "View auction",
+    "loading": "Loading auctions…"
+  },
+  "detail": {
+    "backToList": "Back to auctions",
+    "basePrice": "Base Price",
+    "highestBid": "Current Highest Bid",
+    "buyNow": "Buy Now Price",
+    "minIncrement": "Min. Increment",
+    "bidHistory": "Bid History",
+    "noBidsYet": "No bids yet — be the first!",
+    "you": "You",
+    "timeLeft": "Time left",
+    "startsIn": "Starts in",
+    "endedOn": "Ended on",
+    "winner": "Winning bid",
+    "reservedForWinner": "This piece is reserved for the auction winner (payment pending).",
+    "noSale": "Auction ended without a sale.",
+    "byWeaver": "by {{name}}"
+  },
+  "place_bid": {
+    "title": "Place a Bid",
+    "amountLabel": "Bid Amount (₹)",
+    "submit": "Place Bid",
+    "submitting": "Placing bid…",
+    "success": "Bid placed successfully!",
+    "customersOnly": "Only customers can place bids.",
+    "loginToBid": "Log in as a customer to bid."
+  },
+  "form": {
+    "badge": "New Auction",
+    "title": "List in Auction House",
+    "subtitle": "Put one of your special pieces up for auction.",
+    "product": { "label": "Product" },
+    "productPlaceholder": "Select a product",
+    "base_price": { "label": "Base Price (₹)" },
+    "start_time": { "label": "Start Time" },
+    "end_time": { "label": "End Time" },
+    "min_bid_increment": { "label": "Min. Bid Increment (₹, optional)" },
+    "buy_now_price": { "label": "Buy Now Price (₹, optional)" },
+    "reserved_price": { "label": "Reserve Price (₹, optional)" },
+    "max_bids_per_user": { "label": "Max Bids Per User (optional)" },
+    "submit": "Create Auction",
+    "submitting": "Creating…",
+    "cancel": "Cancel"
+  },
+  "mine": {
+    "title": "My Auctions",
+    "subtitle": "Your special pieces in the Auction House.",
+    "empty": "You haven't listed any auctions yet.",
+    "newAuction": "New Auction",
+    "cancelAuction": "Cancel Auction",
+    "cancelConfirm": "Cancel this auction? This cannot be undone.",
+    "finalPrice": "Final price"
+  },
+  "validation": {
+    "AUCTION_NOT_LIVE": "This auction is not live.",
+    "BID_BELOW_BASE": "Bid must be at least the base price.",
+    "BID_TOO_LOW": "Bid too low — it must beat the highest bid plus the minimum increment.",
+    "MAX_BIDS_REACHED": "You have reached the maximum number of bids for this auction.",
+    "end_after_start": "End time must be after start time.",
+    "end_in_future": "End time must be in the future.",
+    "required_fields": "Please fill product, base price, start and end time.",
+    "generic": "Something went wrong. Please try again."
+  }
+}

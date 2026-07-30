@@ -1,0 +1,19 @@
+{
+  "dashboard": "ড্যাশবোর্ড",
+  "products": "পণ্য",
+  "bulkOrders": "বাল্ক অর্ডার / RFQ",
+  "customerOrders": "ক্রেতার অর্ডার",
+  "profileVerification": "প্রোফাইল ও যাচাই",
+  "discoverCatalog": "ক্যাটালগ দেখুন",
+  "verifyProduct": "পণ্য যাচাই",
+  "discover": "খুঁজুন",
+  "cart": "কার্ট",
+  "myOrders": "আমার অর্ডার",
+  "profile": "প্রোফাইল",
+  "signOut": "সাইন আউট",
+  "collapse": "ছোট করুন",
+  "openMenu": "মেনু খুলুন",
+  "roleDashboard": "{{role}} ড্যাশবোর্ড",
+  "home": "হোম",
+  "auctionHouse": "নিলাম ঘর"
+}

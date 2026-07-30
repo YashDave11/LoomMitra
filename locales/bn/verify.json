@@ -1,0 +1,15 @@
+{
+  "title": "পণ্যের আসলতা যাচাই করুন",
+  "subtitle": "পণ্যের LoomMitra QR কোড স্ক্যান করুন বা লিখুন এবং এর উৎস ও আসলতা যাচাই করুন।",
+  "lookupTitle": "পণ্য খুঁজুন",
+  "placeholder": "QR কোড থেকে পণ্যের ID লিখুন...",
+  "lookUp": "খুঁজুন",
+  "notFound": "পণ্য পাওয়া যায়নি। ID যাচাই করে আবার চেষ্টা করুন।",
+  "verifiedBanner": "পণ্য পাওয়া গেছে — যাচাইকৃত",
+  "stockUnits": "{{count}}টি",
+  "cluster": "{{cluster}} ক্লাস্টার",
+  "govVerified": "সরকার কর্তৃক যাচাইকৃত",
+  "productId": "পণ্যের ID: {{id}}",
+  "listed": "তালিকাভুক্ত: {{date}}",
+  "catalogStatus": "ক্যাটালগ অবস্থা: {{status}}"
+}

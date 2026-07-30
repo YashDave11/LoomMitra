@@ -1,0 +1,19 @@
+{
+  "dashboard": "டாஷ்போர்டு",
+  "products": "பொருட்கள்",
+  "bulkOrders": "மொத்த ஆர்டர் / RFQ",
+  "customerOrders": "வாடிக்கையாளர் ஆர்டர்கள்",
+  "profileVerification": "சுயவிவரம் & சரிபார்ப்பு",
+  "discoverCatalog": "கேட்டலாக் பார்",
+  "verifyProduct": "பொருளை சரிபார்",
+  "discover": "தேடு",
+  "cart": "கார்ட்",
+  "myOrders": "என் ஆர்டர்கள்",
+  "profile": "சுயவிவரம்",
+  "signOut": "வெளியேறு",
+  "collapse": "சுருக்கு",
+  "openMenu": "மெனுவை திற",
+  "roleDashboard": "{{role}} டாஷ்போர்டு",
+  "home": "முகப்பு",
+  "auctionHouse": "ஏல மையம்"
+}

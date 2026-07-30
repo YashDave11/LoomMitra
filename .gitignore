@@ -122,3 +122,26 @@ scripts/export-pptx*.py
 scripts/render-pptx.py
 LoomMitra-Round1-Submission.txt
 LoomMitra-YouTube-Script-Hinglish.txt
+
+# --- ADDED FOR MONOREPO ---
+
+# Built server output
+dist/
+build/
+server/dist/
+
+# Expo / React Native (mobile app)
+mobile/.expo/
+mobile/android/
+mobile/ios/
+mobile/web-build/
+*.jks
+*.keystore
+*.p12
+*.key
+*.mobileprovision
+
+# Database / Prisma SQLite (if any used locally)
+*.sqlite
+*.sqlite-journal
+*.db

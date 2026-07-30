@@ -1,0 +1,281 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+enum Role {
+  WEAVER
+  BUSINESS
+  CUSTOMER
+}
+
+model User {
+  id           String   @id @default(uuid())
+  email        String   @unique
+  passwordHash String
+  role         Role
+  createdAt    DateTime @default(now())
+
+  weaverProfile   WeaverProfile?
+  businessProfile BusinessProfile?
+  customerProfile CustomerProfile?
+  products        Product[]
+  
+  businessOrders  BulkOrderRequest[] @relation("BusinessOrders")
+  weaverOrders    BulkOrderRequest[] @relation("WeaverOrders")
+
+  customerOrders       CustomerOrder[] @relation("CustomerOrders")
+  weaverCustomerOrders CustomerOrder[] @relation("WeaverCustomerOrders")
+
+  auctions Auction[] @relation("WeaverAuctions")
+  bids     Bid[]     @relation("BidderBids")
+}
+
+model WeaverProfile {
+  id           String   @id @default(uuid())
+  userId       String   @unique
+  name         String
+  cluster      String
+  aadhaarNumber String
+  handloomId   String
+  createdAt    DateTime @default(now())
+
+  user User @relation(fields: [userId], references: [id])
+}
+
+enum ProductType {
+  SAREE
+  MUFFLER
+  DUPATTA
+  STOLE
+  FABRIC
+  OTHER
+}
+
+enum ProductStatus {
+  DRAFT
+  READY
+  ARCHIVED
+}
+
+enum StockType {
+  ready_stock
+  made_to_order
+}
+
+enum CatalogStatus {
+  NOT_STARTED
+  PROCESSING
+  DONE
+  FAILED
+}
+
+// Code-valued columns (type, subcategory, location, colors, designName,
+// material, targetAudience, usageContext) store stable codes from
+// lib/productOptions.ts — never localized labels.
+model Product {
+  id          String        @id @default(uuid())
+  userId      String
+  title       String
+  type        ProductType
+  description String?
+  price       Float
+  stock       Int           @default(1)
+  status        ProductStatus @default(DRAFT)
+  location    String?
+  designName  String?
+  material    String?
+
+  subcategory    String?
+  primaryColor   String?
+  secondaryColor String?
+
+  lengthMeters Float?
+  widthMeters  Float?
+  weightGrams  Float?
+
+  basePrice        Float?
+  currency         String  @default("INR")
+  minOrderQuantity Int     @default(1)
+  isAvailable      Boolean @default(true)
+
+  stockType              StockType @default(ready_stock)
+  productionLeadTimeDays Int?
+  maxOrderCapacity       Int?
+
+  isHandloom           Boolean @default(true)
+  giTag                String?
+  certificationDetails String?
+  careInstructions     String?
+
+  targetAudience String?
+  usageContext   String?
+
+  catalogStatus CatalogStatus @default(NOT_STARTED)
+  catalogPlan   Json?
+  createdAt     DateTime      @default(now())
+  updatedAt     DateTime      @updatedAt
+
+  user   User         @relation(fields: [userId], references: [id])
+  images MediaAsset[]
+  bulkOrders BulkOrderRequest[]
+  customerOrderItems CustomerOrderItem[]
+  auctions Auction[]
+}
+
+model MediaAsset {
+  id        String   @id @default(uuid())
+  productId String
+  url       String
+  publicId  String
+  type      String   @default("RAW")
+  createdAt DateTime @default(now())
+
+  product Product @relation(fields: [productId], references: [id], onDelete: Cascade)
+}
+
+model BusinessProfile {
+  id           String   @id @default(uuid())
+  userId       String   @unique
+  businessName String
+  contactEmail String
+  contactPhone String
+  gstNumber    String?
+  createdAt    DateTime @default(now())
+
+  user User @relation(fields: [userId], references: [id])
+}
+
+model CustomerProfile {
+  id        String   @id @default(uuid())
+  userId    String   @unique
+  name      String
+  city      String?
+  createdAt DateTime @default(now())
+
+  user User @relation(fields: [userId], references: [id])
+}
+
+enum BulkOrderStatus {
+  PENDING
+  WEAVER_RESPONDED
+  BARGAINING
+  ACCEPTED
+  REJECTED
+}
+
+model BulkOrderRequest {
+  id           String          @id @default(uuid())
+  productId    String
+  businessId   String
+  weaverId     String
+  quantity     Int
+  quotedPrice  Float?
+  bargainPrice Float?
+  finalPrice   Float?
+  status       BulkOrderStatus @default(PENDING)
+  createdAt    DateTime        @default(now())
+  updatedAt    DateTime        @updatedAt
+
+  product  Product @relation(fields: [productId], references: [id])
+  business User    @relation("BusinessOrders", fields: [businessId], references: [id])
+  weaver   User    @relation("WeaverOrders", fields: [weaverId], references: [id])
+}
+
+enum CustomerOrderStatus {
+  PLACED
+  READY
+  SHIPPED
+  DELIVERED
+}
+
+model CustomerOrder {
+  id              String              @id @default(uuid())
+  customerId      String
+  weaverId        String
+  shippingAddress Json
+  paymentMethod   String
+  totalAmount     Float
+  status          CustomerOrderStatus @default(PLACED)
+  createdAt       DateTime            @default(now())
+  updatedAt       DateTime            @updatedAt
+
+  customer User                @relation("CustomerOrders", fields: [customerId], references: [id])
+  weaver   User                @relation("WeaverCustomerOrders", fields: [weaverId], references: [id])
+  items    CustomerOrderItem[]
+}
+
+enum AuctionStatus {
+  DRAFT
+  UPCOMING
+  LIVE
+  ENDED
+  CANCELLED
+}
+
+enum AuctionResult {
+  PENDING   // not yet ended
+  WON       // valid winner, reserve met
+  NO_SALE   // no bids, or reserve not met
+}
+
+model Auction {
+  id              String        @id @default(uuid())
+  productId       String
+  weaverId        String
+  basePrice       Float
+  currency        String        @default("INR")
+  startTime       DateTime
+  endTime         DateTime
+  status          AuctionStatus @default(DRAFT)
+  minBidIncrement Float?
+  buyNowPrice     Float?
+  reservedPrice   Float?
+  maxBidsPerUser  Int?
+
+  // Set on transition to ENDED with a valid winner
+  result              AuctionResult @default(PENDING)
+  winningBidId        String?       @unique
+  winningBidderUserId String?
+  finalPrice          Float?
+  // Placeholder order/reservation for the (not yet implemented) payment flow
+  orderStatus         String?       // e.g. "pending_payment"
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  product    Product @relation(fields: [productId], references: [id])
+  weaver     User    @relation("WeaverAuctions", fields: [weaverId], references: [id])
+  bids       Bid[]   @relation("AuctionBids")
+  winningBid Bid?    @relation("WinningBid", fields: [winningBidId], references: [id])
+}
+
+model Bid {
+  id           String   @id @default(uuid())
+  auctionId    String
+  bidderUserId String
+  amount       Float
+  currency     String   @default("INR")
+  createdAt    DateTime @default(now())
+
+  auction    Auction  @relation("AuctionBids", fields: [auctionId], references: [id], onDelete: Cascade)
+  bidder     User     @relation("BidderBids", fields: [bidderUserId], references: [id])
+  wonAuction Auction? @relation("WinningBid")
+
+  @@index([auctionId, amount])
+}
+
+model CustomerOrderItem {
+  id              String @id @default(uuid())
+  orderId         String
+  productId       String
+  quantity        Int
+  priceAtPurchase Float
+
+  order   CustomerOrder @relation(fields: [orderId], references: [id], onDelete: Cascade)
+  product Product       @relation(fields: [productId], references: [id])
+}

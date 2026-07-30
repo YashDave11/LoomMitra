@@ -1,0 +1,68 @@
+{
+  "dashboard": {
+    "welcomeBack": "আবার স্বাগতম, {{name}}",
+    "welcome": "LoomMitra-তে স্বাগতম",
+    "subtitle": "আপনার RFQ দেখুন এবং তাঁতিদের কাছ থেকে সরাসরি আসল হস্তচালিত তাঁতের পণ্য কিনুন।",
+    "discoverProducts": "পণ্য খুঁজুন",
+    "stats": {
+      "rfqsSent": "পাঠানো RFQ",
+      "active": "চলমান",
+      "inNegotiation": "দর কষাকষিতে",
+      "accepted": "গৃহীত",
+      "totalUnits": "মোট চাওয়া পরিমাণ"
+    },
+    "recentRfqs": {
+      "title": "সাম্প্রতিক RFQ",
+      "description": "আপনার নতুন বাল্ক অর্ডার অনুরোধ",
+      "viewAll": "সব দেখুন",
+      "empty": "এখনও কোনো RFQ পাঠানো হয়নি।",
+      "browse": "শুরু করতে পণ্য দেখুন",
+      "qty": "পরিমাণ: {{count}}",
+      "unknownProduct": "অজানা পণ্য"
+    },
+    "quickActions": {
+      "title": "দ্রুত কাজ",
+      "description": "সাধারণ কাজের শর্টকাট",
+      "viewAllRfqs": "সব RFQ দেখুন",
+      "verifyProduct": "পণ্য যাচাই করুন",
+      "completeProfile": "ব্যবসার প্রোফাইল সম্পূর্ণ করুন"
+    }
+  },
+  "orders": {
+    "title": "বাল্ক অর্ডার অনুরোধ",
+    "subtitle": "আপনার RFQ দেখুন, তাঁতির দাম দেখুন এবং চূড়ান্ত দামে দর কষাকষি করুন।",
+    "actionRequired": "আপনার জবাব দরকার ({{count}})",
+    "noQuotes": "এখন কোনো দাম আপনার দেখার জন্য নেই।",
+    "unknownWeaver": "অজানা তাঁতি",
+    "weaverLabel": "তাঁতি:",
+    "quoteForUnits": "{{count}}টি পণ্যের জন্য তাঁতির দাম",
+    "perUnit": "/ প্রতিটি",
+    "totalAmount": "মোট: ₹{{amount}}",
+    "quoteReceived": "দাম এসেছে",
+    "counterPrice": "আপনার দর দিন",
+    "counterPlaceholder": "যেমন 1400",
+    "bargain": "দর কষাকষি করুন",
+    "acceptQuote": "দাম মেনে নিন",
+    "history": "ইতিহাস ও অপেক্ষমাণ",
+    "qty": "পরিমাণ:",
+    "pricePerUnit": "₹{{price}} / প্রতিটি",
+    "offer": "প্রস্তাব: ₹{{price}}",
+    "quote": "দাম: ₹{{price}}",
+    "waitingForQuote": "দামের অপেক্ষায়",
+    "productImageAlt": "পণ্য",
+    "errors": {
+      "invalidBargainPrice": "সঠিক দাম লিখুন।",
+      "negotiateFailed": "দর কষাকষি করা যায়নি"
+    }
+  },
+  "profile": {
+    "title": "ব্যবসার প্রোফাইল",
+    "businessName": "ব্যবসার নাম",
+    "contactEmail": "যোগাযোগের ইমেইল",
+    "contactPhone": "যোগাযোগের ফোন",
+    "gstNumber": "GST নম্বর (ঐচ্ছিক)",
+    "save": "প্রোফাইল সংরক্ষণ করুন",
+    "saving": "সংরক্ষণ হচ্ছে…",
+    "saveFailed": "প্রোফাইল সংরক্ষণ করা যায়নি"
+  }
+}

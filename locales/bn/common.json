@@ -1,0 +1,84 @@
+{
+  "appName": "LoomMitra",
+  "language": {
+    "label": "ভাষা"
+  },
+  "actions": {
+    "save": "সেভ করুন",
+    "cancel": "বাতিল",
+    "delete": "মুছুন",
+    "edit": "বদলান",
+    "add": "যোগ করুন",
+    "back": "পিছনে",
+    "next": "পরে",
+    "close": "বন্ধ করুন",
+    "confirm": "নিশ্চিত করুন",
+    "view": "দেখুন",
+    "search": "খুঁজুন",
+    "retry": "আবার চেষ্টা করুন",
+    "accept": "মেনে নিন",
+    "reject": "না করুন",
+    "send": "পাঠান",
+    "remove": "সরান",
+    "update": "বদলান",
+    "loading": "লোড হচ্ছে…",
+    "submitting": "অপেক্ষা করুন…"
+  },
+  "fields": {
+    "price": "দাম",
+    "stock": "স্টক",
+    "quantity": "পরিমাণ",
+    "total": "মোট",
+    "status": "অবস্থা",
+    "date": "তারিখ",
+    "name": "নাম",
+    "email": "ইমেইল",
+    "phone": "ফোন",
+    "city": "শহর",
+    "address": "ঠিকানা",
+    "pincode": "পিন কোড",
+    "description": "বিবরণ",
+    "material": "সুতার ধরন",
+    "location": "জায়গা",
+    "type": "ধরন",
+    "design": "ডিজাইন"
+  },
+  "productTypes": {
+    "SAREE": "শাড়ি",
+    "MUFFLER": "মাফলার",
+    "DUPATTA": "ওড়না",
+    "STOLE": "স্টোল",
+    "FABRIC": "কাপড়",
+    "OTHER": "অন্যান্য"
+  },
+  "productStatus": {
+    "DRAFT": "খসড়া",
+    "READY": "তৈরি"
+  },
+  "orderStatus": {
+    "PENDING": "অপেক্ষায়",
+    "WEAVER_RESPONDED": "তাঁতির উত্তর এসেছে",
+    "BARGAINING": "দরদাম চলছে",
+    "ACCEPTED": "গৃহীত",
+    "REJECTED": "বাতিল হয়েছে",
+    "PLACED": "অর্ডার এসেছে",
+    "READY": "তৈরি",
+    "SHIPPED": "পাঠানো হয়েছে",
+    "DELIVERED": "পৌঁছে গেছে"
+  },
+  "roles": {
+    "WEAVER": "তাঁতি",
+    "BUSINESS": "ব্যবসায়ী",
+    "CUSTOMER": "ক্রেতা"
+  },
+  "empty": {
+    "noProducts": "এখনও কোনো পণ্য নেই",
+    "noOrders": "এখনও কোনো অর্ডার নেই",
+    "noResults": "কিছু পাওয়া যায়নি"
+  },
+  "errors": {
+    "generic": "কিছু ভুল হয়েছে",
+    "tryAgain": "আবার চেষ্টা করুন",
+    "required": "এটি আবশ্যক"
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "dashboard": {
+    "welcomeBack": "తిరిగి స్వాగతం, {{name}}",
+    "welcome": "LoomMitra-కి స్వాగతం",
+    "subtitle": "మీ RFQ-లను చూసుకోండి, నేత కార్మికుల నుండి నేరుగా అసలైన చేనేత ఉత్పత్తులను కొనండి.",
+    "discoverProducts": "ఉత్పత్తులను కనుగొనండి",
+    "stats": {
+      "rfqsSent": "పంపిన RFQ-లు",
+      "active": "కొనసాగుతున్నవి",
+      "inNegotiation": "బేరంలో ఉన్నవి",
+      "accepted": "ఆమోదించినవి",
+      "totalUnits": "మొత్తం అడిగిన పరిమాణం"
+    },
+    "recentRfqs": {
+      "title": "ఇటీవలి RFQ-లు",
+      "description": "మీ కొత్త బల్క్ ఆర్డర్ అభ్యర్థనలు",
+      "viewAll": "అన్నీ చూడండి",
+      "empty": "ఇంకా RFQ ఏదీ పంపలేదు.",
+      "browse": "మొదలుపెట్టడానికి ఉత్పత్తులను చూడండి",
+      "qty": "పరిమాణం: {{count}}",
+      "unknownProduct": "తెలియని ఉత్పత్తి"
+    },
+    "quickActions": {
+      "title": "త్వరిత పనులు",
+      "description": "సాధారణ పనులకు షార్ట్‌కట్‌లు",
+      "viewAllRfqs": "అన్ని RFQ-లను చూడండి",
+      "verifyProduct": "ఉత్పత్తిని తనిఖీ చేయండి",
+      "completeProfile": "వ్యాపార ప్రొఫైల్ పూర్తి చేయండి"
+    }
+  },
+  "orders": {
+    "title": "బల్క్ ఆర్డర్ అభ్యర్థనలు",
+    "subtitle": "మీ RFQ-లను చూడండి, నేత కార్మికుల ధరలను పరిశీలించండి, తుది ధరపై బేరం చేయండి.",
+    "actionRequired": "మీ స్పందన అవసరం ({{count}})",
+    "noQuotes": "ప్రస్తుతం మీ పరిశీలనకు ఏ ధరలూ లేవు.",
+    "unknownWeaver": "తెలియని నేత కార్మికుడు",
+    "weaverLabel": "నేత కార్మికుడు:",
+    "quoteForUnits": "{{count}} వస్తువులకు నేత కార్మికుడి ధర",
+    "perUnit": "/ ఒక్కటి",
+    "totalAmount": "మొత్తం: ₹{{amount}}",
+    "quoteReceived": "ధర వచ్చింది",
+    "counterPrice": "మీ బేరం ధర",
+    "counterPlaceholder": "ఉదా. 1400",
+    "bargain": "బేరం చేయండి",
+    "acceptQuote": "ధరను ఆమోదించండి",
+    "history": "చరిత్ర & పెండింగ్",
+    "qty": "పరిమాణం:",
+    "pricePerUnit": "₹{{price}} / ఒక్కటి",
+    "offer": "బేరం ధర: ₹{{price}}",
+    "quote": "ధర: ₹{{price}}",
+    "waitingForQuote": "ధర కోసం వేచి ఉంది",
+    "productImageAlt": "ఉత్పత్తి",
+    "errors": {
+      "invalidBargainPrice": "సరైన ధరను నమోదు చేయండి.",
+      "negotiateFailed": "బేరం చేయడం సాధ్యపడలేదు"
+    }
+  },
+  "profile": {
+    "title": "వ్యాపార ప్రొఫైల్",
+    "businessName": "వ్యాపారం పేరు",
+    "contactEmail": "సంప్రదింపు ఇమెయిల్",
+    "contactPhone": "సంప్రదింపు ఫోన్",
+    "gstNumber": "GST నంబర్ (ఐచ్ఛికం)",
+    "save": "ప్రొఫైల్ సేవ్ చేయండి",
+    "saving": "సేవ్ అవుతోంది…",
+    "saveFailed": "ప్రొఫైల్ సేవ్ చేయడం సాధ్యపడలేదు"
+  }
+}

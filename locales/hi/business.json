@@ -1,0 +1,68 @@
+{
+  "dashboard": {
+    "welcomeBack": "वापसी पर स्वागत है, {{name}}",
+    "welcome": "LoomMitra में आपका स्वागत है",
+    "subtitle": "अपनी RFQ देखें और बुनकरों से सीधे असली हथकरघा उत्पाद खरीदें।",
+    "discoverProducts": "उत्पाद खोजें",
+    "stats": {
+      "rfqsSent": "भेजी गई RFQ",
+      "active": "चालू",
+      "inNegotiation": "मोल-भाव में",
+      "accepted": "स्वीकृत",
+      "totalUnits": "कुल मांगी गई मात्रा"
+    },
+    "recentRfqs": {
+      "title": "हाल की RFQ",
+      "description": "आपके नए बल्क ऑर्डर अनुरोध",
+      "viewAll": "सभी देखें",
+      "empty": "अभी तक कोई RFQ नहीं भेजी।",
+      "browse": "शुरू करने के लिए उत्पाद देखें",
+      "qty": "मात्रा: {{count}}",
+      "unknownProduct": "अज्ञात उत्पाद"
+    },
+    "quickActions": {
+      "title": "त्वरित काम",
+      "description": "आम कामों के शॉर्टकट",
+      "viewAllRfqs": "सभी RFQ देखें",
+      "verifyProduct": "उत्पाद जांचें",
+      "completeProfile": "बिज़नेस प्रोफ़ाइल पूरी करें"
+    }
+  },
+  "orders": {
+    "title": "बल्क ऑर्डर अनुरोध",
+    "subtitle": "अपनी RFQ देखें, बुनकर के दाम देखें और अंतिम दाम पर मोल-भाव करें।",
+    "actionRequired": "आपके जवाब की ज़रूरत ({{count}})",
+    "noQuotes": "अभी कोई दाम आपकी जांच के लिए नहीं है।",
+    "unknownWeaver": "अज्ञात बुनकर",
+    "weaverLabel": "बुनकर:",
+    "quoteForUnits": "{{count}} नग के लिए बुनकर का दाम",
+    "perUnit": "/ नग",
+    "totalAmount": "कुल: ₹{{amount}}",
+    "quoteReceived": "दाम मिला",
+    "counterPrice": "अपना दाम बताएं",
+    "counterPlaceholder": "जैसे 1400",
+    "bargain": "मोल-भाव करें",
+    "acceptQuote": "दाम मंज़ूर करें",
+    "history": "इतिहास और लंबित",
+    "qty": "मात्रा:",
+    "pricePerUnit": "₹{{price}} / नग",
+    "offer": "पेशकश: ₹{{price}}",
+    "quote": "दाम: ₹{{price}}",
+    "waitingForQuote": "दाम का इंतज़ार है",
+    "productImageAlt": "उत्पाद",
+    "errors": {
+      "invalidBargainPrice": "कृपया सही दाम डालें।",
+      "negotiateFailed": "मोल-भाव नहीं हो सका"
+    }
+  },
+  "profile": {
+    "title": "बिज़नेस प्रोफ़ाइल",
+    "businessName": "बिज़नेस का नाम",
+    "contactEmail": "संपर्क ईमेल",
+    "contactPhone": "संपर्क फ़ोन",
+    "gstNumber": "GST नंबर (वैकल्पिक)",
+    "save": "प्रोफ़ाइल सहेजें",
+    "saving": "सहेजा जा रहा है…",
+    "saveFailed": "प्रोफ़ाइल सहेजी नहीं जा सकी"
+  }
+}

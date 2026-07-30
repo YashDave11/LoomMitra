@@ -1,0 +1,15 @@
+{
+  "title": "Verify Product Authenticity",
+  "subtitle": "Scan or enter a product's LoomMitra QR code to verify its origin and authenticity.",
+  "lookupTitle": "Look Up Product",
+  "placeholder": "Enter Product ID from QR code...",
+  "lookUp": "Look Up",
+  "notFound": "Product not found. Please check the ID and try again.",
+  "verifiedBanner": "Product Found — Verified",
+  "stockUnits": "{{count}} units",
+  "cluster": "{{cluster}} Cluster",
+  "govVerified": "Government Verified",
+  "productId": "Product ID: {{id}}",
+  "listed": "Listed: {{date}}",
+  "catalogStatus": "Catalog Status: {{status}}"
+}

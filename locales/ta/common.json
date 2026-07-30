@@ -1,0 +1,84 @@
+{
+  "appName": "LoomMitra",
+  "language": {
+    "label": "மொழி"
+  },
+  "actions": {
+    "save": "சேமி",
+    "cancel": "ரத்து",
+    "delete": "நீக்கு",
+    "edit": "திருத்து",
+    "add": "சேர்",
+    "back": "பின்",
+    "next": "அடுத்து",
+    "close": "மூடு",
+    "confirm": "உறுதி செய்",
+    "view": "பார்",
+    "search": "தேடு",
+    "retry": "மீண்டும் முயற்சி",
+    "accept": "ஏற்றுக்கொள்",
+    "reject": "நிராகரி",
+    "send": "அனுப்பு",
+    "remove": "நீக்கு",
+    "update": "புதுப்பி",
+    "loading": "ஏற்றுகிறது…",
+    "submitting": "காத்திருக்கவும்…"
+  },
+  "fields": {
+    "price": "விலை",
+    "stock": "இருப்பு",
+    "quantity": "எண்ணிக்கை",
+    "total": "மொத்தம்",
+    "status": "நிலை",
+    "date": "தேதி",
+    "name": "பெயர்",
+    "email": "மின்னஞ்சல்",
+    "phone": "தொலைபேசி",
+    "city": "நகரம்",
+    "address": "முகவரி",
+    "pincode": "பின் கோடு",
+    "description": "விவரம்",
+    "material": "நூல் வகை",
+    "location": "இடம்",
+    "type": "வகை",
+    "design": "வடிவம்"
+  },
+  "productTypes": {
+    "SAREE": "புடவை",
+    "MUFFLER": "மஃப்ளர்",
+    "DUPATTA": "துப்பட்டா",
+    "STOLE": "ஸ்டோல்",
+    "FABRIC": "துணி",
+    "OTHER": "மற்றவை"
+  },
+  "productStatus": {
+    "DRAFT": "வரைவு",
+    "READY": "தயார்"
+  },
+  "orderStatus": {
+    "PENDING": "நிலுவையில்",
+    "WEAVER_RESPONDED": "நெசவாளர் பதில்",
+    "BARGAINING": "பேரம் நடக்கிறது",
+    "ACCEPTED": "ஏற்கப்பட்டது",
+    "REJECTED": "நிராகரிக்கப்பட்டது",
+    "PLACED": "ஆர்டர் வந்தது",
+    "READY": "தயார்",
+    "SHIPPED": "அனுப்பப்பட்டது",
+    "DELIVERED": "சேர்ந்தது"
+  },
+  "roles": {
+    "WEAVER": "நெசவாளர்",
+    "BUSINESS": "வணிகர்",
+    "CUSTOMER": "வாடிக்கையாளர்"
+  },
+  "empty": {
+    "noProducts": "இன்னும் பொருட்கள் இல்லை",
+    "noOrders": "இன்னும் ஆர்டர்கள் இல்லை",
+    "noResults": "எதுவும் கிடைக்கவில்லை"
+  },
+  "errors": {
+    "generic": "ஏதோ தவறு நடந்தது",
+    "tryAgain": "மீண்டும் முயற்சிக்கவும்",
+    "required": "இது தேவை"
+  }
+}
