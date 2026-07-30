@@ -95,9 +95,9 @@ router.get(
 );
 
 // ── Get Single Discover Product ──
+// Public: powers the QR verification page, scanners are not logged in.
 router.get(
   "/:id",
-  requireAuth,
   async (req: Request, res: Response): Promise<void> => {
     try {
       const id = String(req.params.id);
