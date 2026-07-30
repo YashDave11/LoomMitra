@@ -18,7 +18,11 @@ import path from "path";
 const app = express();
 const PORT = process.env.PORT || 4000;
 
-app.use(cors({ origin: process.env.FRONTEND_URL || "http://localhost:3000", credentials: true }));
+// Clean FRONTEND_URL to ensure no trailing slash causes CORS string-mismatch
+const rawFrontendUrl = process.env.FRONTEND_URL || "http://localhost:3000";
+const cleanFrontendUrl = rawFrontendUrl.endsWith("/") ? rawFrontendUrl.slice(0, -1) : rawFrontendUrl;
+
+app.use(cors({ origin: cleanFrontendUrl, credentials: true }));
 app.use(express.json());
 app.use("/CatalogOutput", express.static(path.join(__dirname, "../../public/CatalogOutput")));
 
