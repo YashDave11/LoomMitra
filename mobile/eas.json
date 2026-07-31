@@ -13,7 +13,7 @@
         "buildType": "apk"
       },
       "env": {
-        "EXPO_PUBLIC_BACKEND_URL": "https://loommitra.onrender.com"
+        "EXPO_PUBLIC_BACKEND_URL": "https://loommitra-4e42.onrender.com"
       }
     },
     "production": {

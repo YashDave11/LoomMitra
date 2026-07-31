@@ -1,4 +1,8 @@
 {
+  "nav": {
+    "retailOrdersSubtitle": "Manage direct customer orders",
+    "auctionsSubtitle": "Manage your live auctions"
+  },
   "dashboard": {
     "welcomeBack": "Welcome back",
     "welcomeBackName": "Welcome back, {{name}}",

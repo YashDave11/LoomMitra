@@ -3,7 +3,7 @@ import { Image } from "expo-image";
 import { useTranslation } from "react-i18next";
 import { Gavel, Clock } from "lucide-react-native";
 import type { Auction } from "@/lib/types";
-import { formatPrice, firstImage, timeLeft } from "@/lib/format";
+import { formatPrice, getPreviewImage, timeLeft } from "@/lib/format";
 import { colors, radius, spacing } from "@/theme";
 import { Card, Text, Badge, auctionTone } from "@/components/ui";
 
@@ -16,7 +16,7 @@ interface Props {
 /** Auction summary tile for the auction house list. */
 export function AuctionCard({ auction, now, onPress }: Props) {
   const { t } = useTranslation(["auction", "common"]);
-  const img = firstImage(auction.product?.images);
+  const img = getPreviewImage(auction.product);
   const left = auction.status === "LIVE" ? timeLeft(auction.endTime, now) : null;
   const current = auction.highestBid ?? auction.basePrice;
 

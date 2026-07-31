@@ -17,8 +17,8 @@ export function ProductQRCard({ product }: { product: Product }) {
   // domain; here we use the current origin so it resolves in any environment.
   const verifyUrl =
     typeof window !== "undefined"
-      ? `${window.location.origin}/verify?id=${product.id}`
-      : `/verify?id=${product.id}`;
+      ? `${window.location.origin}/verify?p=${product.id}`
+      : `/verify?p=${product.id}`;
 
   function handleDownload() {
     const svg = document.getElementById(`qr-${product.id}`);

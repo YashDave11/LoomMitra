@@ -28,7 +28,19 @@ function group(name: string, values: string[]): ProductOption[] {
  * instead of showing a raw key path.
  */
 export function optionLabel(t: Translate, name: string, code: string): string {
-  return t(`product:${name}.${code.toLowerCase()}`, { defaultValue: code });
+  if (!code) return "";
+  const key = `product:${name}.${code.toLowerCase()}`;
+  const translated = t(key, { defaultValue: code });
+  
+  // If the translation engine fails to fall back and returns the raw key path
+  if (translated === key || translated === `${name}.${code.toLowerCase()}`) {
+    // Return a nicely capitalized version of the code
+    return code
+      .split("_")
+      .map(word => word.charAt(0).toUpperCase() + word.slice(1).toLowerCase())
+      .join(" ");
+  }
+  return translated;
 }
 
 // ── A) Identification ──
@@ -76,6 +88,7 @@ export const CRAFT_CLUSTERS = group("cluster", [
   "bomkai",
   "patan_patola",
   "muga_assam",
+  "independent",
   "other",
 ]);
 

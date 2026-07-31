@@ -20,7 +20,27 @@ export function timeLeft(iso: string, now: number): string | null {
   return `${m}m`;
 }
 
-/** First image URL of a product, or null. */
+/** First image URL of a product, or null (Legacy). */
 export function firstImage(images?: { url: string }[] | null): string | null {
   return images && images.length > 0 ? images[0].url : null;
+}
+
+/** Get the best preview image for a product, prioritizing AI Catalog outputs. */
+export function getPreviewImage(product?: { images?: { url: string, type: string }[] | null, catalogStatus?: string } | null): string {
+  if (!product) return "https://via.placeholder.com/400x500";
+  
+  if (product.images && product.images.length > 0) {
+    const catalog = product.images.find((img) => img.type.startsWith("CATALOG_"));
+    if (catalog) return catalog.url;
+  }
+  
+  const any = product.images?.[0]?.url;
+  if (any) return any;
+  
+  if (product.catalogStatus === "DONE") {
+    const baseUrl = process.env.EXPO_PUBLIC_BACKEND_URL || "http://localhost:4000";
+    return `${baseUrl}/CatalogOutput/shot_0.jpg`;
+  }
+  
+  return "https://via.placeholder.com/400x500";
 }

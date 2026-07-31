@@ -9,7 +9,7 @@ import { Clock, Gavel } from "lucide-react-native";
 import { apiClient, ApiError } from "@/lib/apiClient";
 import { useAuth } from "@/lib/AuthContext";
 import type { Auction } from "@/lib/types";
-import { firstImage, formatPrice, timeLeft } from "@/lib/format";
+import { getPreviewImage, formatPrice, timeLeft } from "@/lib/format";
 import {
   Header,
   Text,
@@ -92,7 +92,7 @@ export default function AuctionDetailScreen() {
     );
   }
 
-  const img = firstImage(auction.product?.images);
+  const img = getPreviewImage(auction.product);
   const isLive = auction.status === "LIVE";
   const left = isLive ? timeLeft(auction.endTime, now) : null;
   const current = auction.highestBid ?? auction.basePrice;

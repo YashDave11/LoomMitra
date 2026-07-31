@@ -15,5 +15,10 @@
   "collapse": "Collapse",
   "openMenu": "Open menu",
   "roleDashboard": "{{role}} Dashboard",
-  "home": "Home"
+  "home": "Home",
+  "more": "More Options",
+  "verify": "Verify Authenticity",
+  "auctions": "Auction House",
+  "orders": "Orders",
+  "retailOrders": "Retail Orders"
 }

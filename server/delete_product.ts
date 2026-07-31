@@ -3,9 +3,31 @@ import { PrismaClient } from '@prisma/client';
 const prisma = new PrismaClient();
 
 async function main() {
-  const productId = '7029d569-0c89-4a8d-ba23-5577a0d0c4aa';
-  
-  console.log(`Deleting relations for product ${productId}...`);
+  console.log('Finding product...');
+  const products = await prisma.product.findMany({
+    where: {
+      title: {
+        contains: 'rasham',
+        mode: 'insensitive'
+      },
+      user: {
+        weaverProfile: {
+          name: {
+            contains: 'yash',
+            mode: 'insensitive'
+          }
+        }
+      }
+    }
+  });
+
+  if (products.length === 0) {
+    console.log('No matching product found.');
+    return;
+  }
+
+  const productId = products[0].id;
+  console.log(`Found product "${products[0].title}" (ID: ${productId}). Deleting relations...`);
   
   // Delete CustomerOrderItems
   const customerOrderItems = await prisma.customerOrderItem.deleteMany({ where: { productId } });

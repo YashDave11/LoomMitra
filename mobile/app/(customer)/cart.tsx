@@ -3,6 +3,7 @@ import { SafeAreaView } from "react-native-safe-area-context";
 import { Image } from "expo-image";
 import { useTranslation } from "react-i18next";
 import { Minus, Plus, Trash2 } from "lucide-react-native";
+import { router } from "expo-router";
 
 import { useCart } from "@/lib/CartContext";
 import { formatPrice } from "@/lib/format";
@@ -89,7 +90,7 @@ export default function CartScreen() {
         <SummaryRow label={t("customer:cart.gst")} value={formatPrice(gst)} />
         <View style={styles.divider} />
         <SummaryRow label={t("common:fields.total")} value={formatPrice(total)} strong />
-        <Button label={t("customer:cart.proceedToCheckout")} size="lg" onPress={() => { /* checkout flow — see notes */ }} />
+        <Button label={t("customer:cart.proceedToCheckout")} size="lg" onPress={() => { router.push("/(customer)/checkout" as any); }} />
         <Button label={t("customer:cart.clearCart")} variant="ghost" onPress={clear} />
       </Card>
     </SafeAreaView>

@@ -24,8 +24,8 @@ export default function LoginScreen() {
     setSubmitting(true);
     try {
       const role = await login(email.trim(), password);
-      const dest = role === "CUSTOMER" ? "/(customer)/browse" : "/(weaver)/dashboard";
-      router.replace(dest);
+      const dest = role === "CUSTOMER" ? "/(customer)/browse" : role === "BUSINESS" ? "/(business)/browse" : "/(weaver)/dashboard";
+      router.replace(dest as any);
     } catch (err) {
       setError(err instanceof ApiError ? err.message : t("auth:login.failed"));
       setSubmitting(false);

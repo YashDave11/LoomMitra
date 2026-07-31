@@ -1,6 +1,6 @@
 import { Tabs } from "expo-router";
 import { useTranslation } from "react-i18next";
-import { Search, Gavel, ShoppingCart, User } from "lucide-react-native";
+import { Search, Gavel, ShoppingCart, User, Package, ShieldCheck, Menu } from "lucide-react-native";
 
 import { useRequireRole } from "@/lib/useRequireRole";
 import { useCart } from "@/lib/CartContext";
@@ -58,11 +58,8 @@ export default function CustomerLayout() {
         }}
       />
       <Tabs.Screen
-        name="auctions"
-        options={{
-          title: t("auctionHouse"),
-          tabBarIcon: ({ color, size }) => <Gavel color={color} size={size} />,
-        }}
+        name="orders"
+        options={{ title: t("nav.orders", "Orders"), tabBarIcon: ({ color, size }) => <Package color={color} size={size} /> }}
       />
       <Tabs.Screen
         name="cart"
@@ -83,6 +80,17 @@ export default function CustomerLayout() {
           tabBarIcon: ({ color, size }) => <User color={color} size={size} />,
         }}
       />
+      <Tabs.Screen
+        name="more"
+        options={{
+          title: t("nav.more", "More"),
+          tabBarIcon: ({ color, size }) => <Menu color={color} size={size} />,
+        }}
+      />
+      {/* Hide these screens from the tab bar */}
+      <Tabs.Screen name="auctions" options={{ href: null }} />
+      <Tabs.Screen name="verify" options={{ href: null }} />
+      <Tabs.Screen name="checkout" options={{ href: null }} />
     </Tabs>
   );
 }

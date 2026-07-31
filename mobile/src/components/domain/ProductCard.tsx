@@ -4,7 +4,7 @@ import { useTranslation } from "react-i18next";
 import { ImageOff } from "lucide-react-native";
 import type { Product } from "@/lib/types";
 import { optionLabel } from "@/lib/productOptions";
-import { formatPrice, firstImage } from "@/lib/format";
+import { formatPrice, getPreviewImage } from "@/lib/format";
 import { colors, radius, spacing } from "@/theme";
 import { Card, Text, Badge, orderTone } from "@/components/ui";
 
@@ -19,7 +19,7 @@ interface Props {
 /** Product tile used in grids (browse) and lists (my listings). */
 export function ProductCard({ product, weaverName, onPress, showStatus }: Props) {
   const { t } = useTranslation(["product", "common"]);
-  const img = firstImage(product.images);
+  const img = getPreviewImage(product);
 
   return (
     <Card onPress={onPress} padded={false} accessibilityLabel={product.title} style={styles.card}>
