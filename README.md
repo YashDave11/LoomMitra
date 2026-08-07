@@ -1,13 +1,6 @@
 <div align="center">
-  <img src="https://raw.githubusercontent.com/YashDave11/handloom/main/public/placeholder.svg" alt="LoomMitra Logo" width="120" />
   <h1>🧵 LoomMitra</h1>
   <p><strong>Digital passports, authentic stories, and direct markets for Indian handloom.</strong></p>
-
-  <p>
-    <a href="https://loommitra-4e42.onrender.com/"><img src="https://img.shields.io/badge/Web_App-Live-blue?style=for-the-badge&logo=vercel" alt="Web App" /></a>
-    <img src="https://img.shields.io/badge/Status-Active-brightgreen?style=for-the-badge" alt="Status" />
-    <img src="https://img.shields.io/badge/Platform-Web%20%7C%20Mobile-lightgrey?style=for-the-badge" alt="Platform" />
-  </p>
 
   <p>
     <em>Built for the <b>Handloom Hackathon 2.0</b> — Connecting rural weavers to digital markets, proving authenticity with Blockchain, and empowering cooperatives.</em>
