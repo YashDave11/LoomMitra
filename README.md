@@ -22,11 +22,11 @@ India's handloom sector employs millions of weavers, yet most of them remain inv
 
 ## 🚀 Key Features
 
-- **📱 Independent Weaver Onboarding:** Weavers register with their name, village, craft specialty, and experience. No middlemen, no paperwork—their profile *is* their storefront.
-- **🔗 Blockchain Product Passports:** Every product gets a digital passport. Scan the QR code on the physical tag to see the weaver's face, the loom, fabric close-ups, and a verified event timeline.
-- **📸 AI Catalog Generation:** One-click generation of professional e-commerce photos! Using Google Gemini AI, raw loom photos are transformed into stunning model, hanger, and close-up shots.
-- **🤝 Cooperative Dashboard:** Roster management, pooled inventory tracking, and bulk-order negotiations (RFQ) built natively for weaver cooperatives.
-- **🛒 Unified Retail & Bulk Marketplace:** Customers can buy single authentic pieces (B2C), while businesses can negotiate bulk deals directly with the weavers (B2B).
+- 📸 **AI-Powered Cataloging:** Generate professional, e-commerce-ready catalog images from raw loom photos with a single click using advanced AI, saving weavers time and money.
+- 🔗 **Blockchain Authenticity:** Tamper-proof digital passports for every product. A simple QR scan traces the journey from warp to dispatch, verifying the true origin and artisan.
+- 🌍 **Unified Direct Marketplace:** Connect weavers directly to buyers for retail purchases (B2C) and businesses for bulk orders (B2B), entirely eliminating predatory middlemen.
+- 📱 **Effortless & Accessible:** Built for the grassroots with extreme ease of usage—designed with "one option per screen" simplicity and native multilingual support to bridge the digital divide.
+- 📊 **Smart Cooperative Management:** A shared digital dashboard for weaver cooperatives to manage members, pool inventory, and tackle large-scale orders collectively.
 
 ---
 
